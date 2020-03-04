@@ -96,7 +96,6 @@ body {
     font-family: 'Comfortaa', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
-    overflow-x: hidden;
     -webkit-text-size-adjust: none;
 }
 
@@ -222,10 +221,8 @@ a {
 /*===================intro=================*/
 
 .intro {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 1000px;
+    height: auto;
     position: relative;
     background-size: cover;
     
@@ -239,12 +236,57 @@ a {
     display: flex;
     position: absolute;
     top: 230px;
-    right: 350px;
+    
 }
 
 .intro-content {
+    margin-top: 40px;
     margin-right: 200px;
 }
+
+.intro-photo {
+    width: 100%;
+}
+
+.intro-photo-size {
+    width: 537px;
+    height: 541px;
+    
+}
+
+.content-title {
+    margin-bottom: 30px;
+}
+
+.contetnt-subtitle {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.text-subtitle, .text-red {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 150%;
+    color: #FFFFFF; 
+}
+
+.text-red {
+    margin-left: 10px;
+    color: #F02B53;
+}
+
+.content-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #EFFFE7;
+}
+
+
 
 
 
