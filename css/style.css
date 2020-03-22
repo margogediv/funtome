@@ -523,6 +523,7 @@ a {
     display: flex;
     align-items: center;
     margin-bottom: 80px;
+    justify-content: space-between;
 }
 
 .funtome-text {

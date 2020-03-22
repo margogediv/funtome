@@ -1,0 +1,130 @@
+
+/*********Blog Menu*************/
+
+.blog-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 30px 0 139px;
+    justify-content: center;
+}
+
+.blog-menu-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blog-menu-nav li {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 140%;
+    color: #F02B53;
+    margin-left: 50px;
+
+}
+
+.blog-menu-nav li:first-child {
+    margin-left: 0;
+}
+
+.blog-menu-nav li:hover {
+
+}
+
+/*************News*************/
+
+.news-title-first{
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #1FB14D;
+}
+
+.news-iteam {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-section {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.img-news {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.news-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #F02B53;
+    margin: 20px 0 15px;
+}
+
+.news-subtitle {
+    margin-bottom: 40px;
+}
+
+.style-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.news-like-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like {
+    display: flex;
+}
+
+.collum-first {
+    display: flex;
+
+}
+
+.view {
+    display: block;
+    margin-right: 10px;
+}
+
+.quantity {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #5E6973;
+}
+
+.collum-second {
+    display: flex;
+}
+
+.news-data {
+    align-items: center;
+}

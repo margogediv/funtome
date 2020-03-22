@@ -9,7 +9,7 @@
 .features-container {
     position: absolute;
     /* top: -50%; */
-    transform: translateY(115%);
+    transform: translateY(90%);
 } 
 
 .features-banner-title {
