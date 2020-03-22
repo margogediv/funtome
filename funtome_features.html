@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-funtome-features.css">
 
 
@@ -22,257 +23,272 @@
 
 <body>
 
-    <!--- Header -->
+    <div id="app" class="app">
 
-    <header class="header">
-        <div class="container header-container">
-            <div class="header-logo">
-                <a href="/">
-                    <img class="logo" src="img/logo_funtome.svg" alt="" />
-                </a>
-                <a href="/">
-                    <img src="img/lang.svg" alt="" />
-                </a>
+        <!--- Header -->
+        <header class="header">
+            <div class="container header-container">
+                <div class="header-logo">
+                    <a href="/">
+                        <img class="logo" src="img/logo_funtome.svg" alt="" />
+                    </a>
+                    <a href="/">
+                        <img src="img/lang.svg" alt="" />
+                    </a>
+                </div>
+
+                <div class="nav">
+                    <ul class="nav-list">
+                        <li class="link-home active">
+                            <a href="index.html">главная</a>
+                        </li>
+                        <li class="link-features">
+                            <a href="funtome_features.html">особенности</a>
+                        </li>
+                        <li class="link-blog">
+                            <a href="#">блог</a>
+                        </li>
+                        <li class="link-help">
+                            <a href="#">поддержка</a>
+                        </li>
+                        <li class="link-paki">
+                            <a href="#">паки</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-instal">
+                    <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt="" /></a>
+                    <a href="#"><img class="instal-google" src="img/icon/google_icon.png" alt="" /></a>
+                </div>
+            </div>
+        </header>
+
+        <!--- Intro -->
+
+        <div class="intro">
+
+            <div class="container-center">
+
+                <div class="intro-container">
+
+                    <div class="intro-content">
+                        <div class="content-title">
+                            <!-- <p class="text-title">features</p> -->
+                            <img src="img/funtome-features/features-title.png" alt="">
+                        </div>
+                        <div class="contetnt-subtitle">
+                            <p class="text-red">Funtome Messenger</p>
+                        </div>
+                        <div class="content-text">Узнайте о самых полезных и необычных функциях приложения!</div>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="link-home active">
-                        <a href="index.html">главная</a>
-                    </li>
-                    <li class="link-features">
-                        <a href="funtome_features.html">особенности</a>
-                    </li>
-                    <li class="link-blog">
-                        <a href="#">блог</a>
-                    </li>
-                    <li class="link-help">
-                        <a href="#">поддержка</a>
-                    </li>
-                    <li class="link-paki">
-                        <a href="#">паки</a>
-                    </li>
-                </ul>
-            </div>
+        </div>
 
-            <div class="header-instal">
-                <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt="" /></a>
-                <a href="#"><img class="instal-google" src="img/icon/google_icon.png" alt="" /></a>
+        <div class="icon-social">
+            <a href="#" class="icon-fixet">
+                <img src="img/icon/inst.png" alt="">
+            </a>
+            <a href="#" class="icon-fixet">
+                <img src="img/icon/facebook.png" alt="">
+            </a>
+            <a href="#" class="icon-fixet">
+                <img src="img/icon/vk.png" alt="">
+            </a>
+            <a href="#">
+                <img src="img/icon/youtube.png" alt="">
+            </a>
+        </div>
+        <div class="intro-banner">
+            <img src="img/funtome-features/banner-features-desc.jpg" alt="">
+        </div>
+
+        </div>
+
+        <!--- Features -->
+        <div class="features-group">
+            <div class="container">
+
+                <!--- Text Left -->
+                <div class="features-iteam">
+                    <div class="features-photo mr50">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                    <div class="features-content">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/01.png" alt="">
+                            </div>
+                            <div class="title">Профиль</div>
+                        </div>
+                        <div class="features-text">
+                            <p>Профиль – это ваша территория! Здесь отображаются личные и статистические данные, а также
+                                настройки, чтобы ваше общение в Funtome было по-настоящему удобным. В профиле можно узнать
+                                свой баланс фанумов, посмотреть награды и уровни, установить фоны, выбрать язык и звуки
+                                отправки и получения сообщений.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- Text Richt -->
+                <div class="features-iteam">
+                    <div class="features-content mr50">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/02.png" alt="">
+                            </div>
+                            <div class="title">Уровни и награды</div>
+                        </div>
+                        <div class="features-text">
+                            <p>Отправляйте новые картинки и получайте награды! За каждые 50 новых отправленных картинок вы
+                                переходите на следующий уровень и получаете фанумы и награды. Попробуйте сами!</p>
+                        </div>
+                    </div>
+                    <div class="features-photo">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                </div>
+
+                <!--- Text Left -->
+                <div class="features-iteam">
+                    <div class="features-photo mr50">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                    <div class="features-content">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/03.png" alt="">
+                            </div>
+                            <div class="title">Фанумы</div>
+                        </div>
+                        <div class="features-text">
+                            <p>Funtome – это бесплатное приложение, где за каждые 50 отправленных картинок вы получаете
+                                фанумы. Фанумы – виртуальная валюта приложения, которую вы можете обменять на наши паки с
+                                картинками, дизайнерские фоныдля чатов, новые звуки отправки и получения сообщений.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- Text Richt -->
+                <div class="features-iteam">
+                    <div class="features-content mr50">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/04.png" alt="">
+                            </div>
+                            <div class="title">Паки</div>
+                        </div>
+                        <div class="features-text mb30">
+                            <p>Картинок много не бывает! Паки Funtome разнообразят ваше общение. Паки – это дополнительные
+                                наборы картинок на все случаи жизни. Обменивайте фанумы на паки и ПАКуйтесь на здоровье!</p>
+                        </div>
+                        <div class="butt-group">
+                            <span class="arrow-next"></span>
+                            <a href="#" class="butt butt-green-border">
+                                <span class="butt-text-green">Подробнее</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="features-photo">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                </div>
+
+                <!--- Text Left -->
+                <div class="features-iteam">
+                    <div class="features-photo mr50">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                    <div class="features-content">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/05.png" alt="">
+                            </div>
+                            <div class="title">Звуки</div>
+                        </div>
+                        <div class="features-text">
+                            <p>Почему уведомления должны приходить с одним и тем же звуком? В Funtome вы сами устанавливаете
+                                звуки, с которыми вы отправляете и получаете сообщения. Funtome также позволяет задать звук,
+                                с которым сообщение придет вашему собеседнику.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- Text Richt -->
+                <div class="features-iteam">
+                    <div class="features-content mr50">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/06.png" alt="">
+                            </div>
+                            <div class="title">Коллажи</div>
+                        </div>
+                        <div class="features-text mb30">
+                            <p>С Funtome можно творить без границ! Вы можете создавать свои собственные коллажи из картинок
+                                Funtome. Выбирайте любые фоны, загружайте свои фотографии из галереи, добавляйте любимые
+                                картинки Funtome, cобирайте коллажи и отправляйте свои шедевры друзьям!</p>
+                        </div>
+                    </div>
+                    <div class="features-photo">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                </div>
+
+                <!--- Text Left -->
+                <div class="features-iteam">
+                    <div class="features-photo mr50">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                    <div class="features-content">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/07.png" alt="">
+                            </div>
+                            <div class="title">Волшебная палочка</div>
+                        </div>
+                        <div class="features-text">
+                            <p>Почувствуйте себя волшебником с Funtome! Воспользуйтесь Волшебной палочкой и превратите сразу
+                                всё текстовое сообщение в картинки всего одним нажатием. Автотрансформация, хоть и не
+                                приносит фанумов, но творит настоящие чудеса, превращая текст в картинки быстро и весело.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- Text Richt -->
+                <div class="features-iteam">
+                    <div class="features-content mr50">
+                        <div class="features-title">
+                            <div class="number-photo">
+                                <img class="number" src="img/funtome-features/08.png" alt="">
+                            </div>
+                            <div class="title">Яйцесмайлы</div>
+                        </div>
+                        <div class="features-text mb30">
+                            <p>Добавьте ещё больше эмоций в общение с помощью наших неповторимых Яйцесмайлов! Яйцесмайлы –
+                                оригинальные смайлы, выражающие популярные и мемные эмоции и выражения.</p>
+                        </div>
+                    </div>
+                    <div class="features-photo">
+                        <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
+                    </div>
+                </div>
+
             </div>
         </div>
-    </header>
-
-    <!--- Intro -->
-
-    <div class="intro">
 
         <div class="container-center">
 
-            <div class="intro-container">
-
-                <div class="intro-content">
-                    <div class="content-title">
-                        <!-- <p class="text-title">features</p> -->
-                        <img src="img/funtome-features/features-title.png" alt="">
-                    </div>
-                    <div class="contetnt-subtitle">
-                        <p class="text-red">Funtome Messenger</p>
-                    </div>
-                    <div class="content-text">Узнайте о самых полезных и необычных функциях приложения!</div>
-
-                </div>
-
+            <div class="conditiuns">
+                <a href="#" class="style-conditions mr50">Условия пользования</a>
+                <a href="#" class="style-conditions">Политика конфиденциальности</a>
             </div>
 
         </div>
-
-    </div>
-
-    <div class="icon-social">
-        <a href="#" class="icon-fixet">
-            <img src="img/icon/inst.png" alt="">
-        </a>
-        <a href="#" class="icon-fixet">
-            <img src="img/icon/facebook.png" alt="">
-        </a>
-        <a href="#" class="icon-fixet">
-            <img src="img/icon/vk.png" alt="">
-        </a>
-        <a href="#">
-            <img src="img/icon/youtube.png" alt="">
-        </a>
-    </div>
-    <div class="intro-banner">
-        <img src="img/funtome-features/banner-features-desc.jpg" alt="">
-    </div>
-
-    </div>
-
-    <!--- Features -->
-    <div class="features-group">
-        <div class="container">
-
-             <!--- Text Left -->
-            <div class="features-iteam">
-                <div class="features-photo mr50">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-                <div class="features-content">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/01.png" alt="">
-                        </div>
-                        <div class="title">Профиль</div>
-                    </div>
-                    <div class="features-text">
-                        <p>Профиль – это ваша территория! Здесь отображаются личные и статистические данные, а также настройки, чтобы ваше общение в Funtome было по-настоящему удобным. В профиле можно узнать свой баланс фанумов, посмотреть награды и уровни, установить фоны, выбрать язык и звуки отправки и получения сообщений.</p> 
-                    </div>
-                </div>
-            </div>
-
-            <!--- Text Richt -->
-            <div class="features-iteam">
-                <div class="features-content mr50">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/02.png" alt="">
-                        </div>
-                        <div class="title">Уровни и награды</div>
-                    </div>
-                    <div class="features-text">
-                        <p>Отправляйте новые картинки и получайте награды! За каждые 50 новых отправленных картинок вы переходите на следующий уровень и получаете фанумы и награды. Попробуйте сами!</p> 
-                    </div>
-                </div>
-                <div class="features-photo">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-            </div>
-
-            <!--- Text Left -->
-            <div class="features-iteam">
-                <div class="features-photo mr50">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-                <div class="features-content">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/03.png" alt="">
-                        </div>
-                        <div class="title">Фанумы</div>
-                    </div>
-                    <div class="features-text">
-                        <p>Funtome – это бесплатное приложение, где за каждые 50 отправленных картинок вы получаете фанумы. Фанумы – виртуальная валюта приложения, которую вы можете обменять на наши паки с картинками, дизайнерские фоныдля чатов, новые звуки отправки и получения сообщений.</p> 
-                    </div>
-                </div>
-            </div>
-
-            <!--- Text Richt -->
-            <div class="features-iteam">
-                <div class="features-content mr50">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/04.png" alt="">
-                        </div>
-                        <div class="title">Паки</div>
-                    </div>
-                    <div class="features-text mb30">
-                        <p>Картинок много не бывает! Паки Funtome разнообразят ваше общение. Паки – это дополнительные наборы картинок на все случаи жизни. Обменивайте фанумы на паки и ПАКуйтесь на здоровье!</p> 
-                    </div>
-                    <div class="butt-group">
-                        <span class="arrow-next"></span>
-                        <a href="#" class="butt butt-green-border">
-                          <span class="butt-text-green">Подробнее</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="features-photo">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-            </div>
-
-            <!--- Text Left -->
-            <div class="features-iteam">
-                <div class="features-photo mr50">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-                <div class="features-content">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/05.png" alt="">
-                        </div>
-                        <div class="title">Звуки</div>
-                    </div>
-                    <div class="features-text">
-                        <p>Почему уведомления должны приходить с одним и тем же звуком? В Funtome вы сами устанавливаете звуки, с которыми вы отправляете и получаете сообщения. Funtome также позволяет задать звук, с которым сообщение придет вашему собеседнику.</p> 
-                    </div>
-                </div>
-            </div>
-            
-            <!--- Text Richt -->
-            <div class="features-iteam">
-                <div class="features-content mr50">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/06.png" alt="">
-                        </div>
-                        <div class="title">Коллажи</div>
-                    </div>
-                    <div class="features-text mb30">
-                        <p>С Funtome можно творить без границ! Вы можете создавать свои собственные коллажи из картинок Funtome. Выбирайте любые фоны, загружайте свои фотографии из галереи, добавляйте любимые картинки Funtome, cобирайте коллажи и отправляйте свои шедевры друзьям!</p> 
-                    </div>
-                </div>
-                <div class="features-photo">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-            </div>
-
-            <!--- Text Left -->
-            <div class="features-iteam">
-                <div class="features-photo mr50">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-                <div class="features-content">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/07.png" alt="">
-                        </div>
-                        <div class="title">Волшебная палочка</div>
-                    </div>
-                    <div class="features-text">
-                        <p>Почувствуйте себя волшебником с Funtome! Воспользуйтесь Волшебной палочкой и превратите сразу всё текстовое сообщение в картинки всего одним нажатием. Автотрансформация, хоть и не приносит фанумов, но творит настоящие чудеса, превращая текст в картинки быстро и весело.</p> 
-                    </div>
-                </div>
-            </div>
-
-            <!--- Text Richt -->
-            <div class="features-iteam">
-                <div class="features-content mr50">
-                    <div class="features-title">
-                        <div class="number-photo">
-                            <img class="number" src="img/funtome-features/08.png" alt="">
-                        </div>
-                        <div class="title">Яйцесмайлы</div>
-                    </div>
-                    <div class="features-text mb30">
-                        <p>Добавьте ещё больше эмоций в общение с помощью  наших неповторимых Яйцесмайлов! Яйцесмайлы – оригинальные смайлы, выражающие популярные и мемные эмоции и выражения.</p> 
-                    </div>
-                </div>
-                <div class="features-photo">
-                    <img class="container-img" src="img/funtome-features/features-photo.png" alt="">
-                </div> 
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-center">
-        
-        <div class="conditiuns">
-          <a href="#" class="style-conditions mr50">Условия пользования</a>
-          <a href="#" class="style-conditions">Политика конфиденциальности</a>
-        </div>
-
-      </div>
+    </div> <!-- end app -->     
 
     <!--- Footer -->
     <footer>
@@ -304,16 +320,16 @@
                 </div>
 
                 <div class="icon-social-footer">
-                    <a href="#" class="mr30">
+                    <a href="#" class="icon-footer mr30">
                         <img src="img/icon/inst.png" alt="">
                     </a>
-                    <a href="#" class="mr30">
+                    <a href="#" class="icon-footer mr30">
                         <img src="img/icon/facebook.png" alt="">
                     </a>
-                    <a href="#" class="mr30">
+                    <a href="#" class="icon-footer mr30">
                         <img src="img/icon/vk.png" alt="">
                     </a>
-                    <a href="#">
+                    <a href="#" class="icon-footer">
                         <img src="img/icon/youtube.png" alt="">
                     </a>
                 </div>
