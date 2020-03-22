@@ -295,8 +295,11 @@ a {
     color: #FFFFFF; 
 }
 
+.text-subtitle {
+    margin-right: 10px;
+}
+
 .text-red {
-    margin-left: 10px;
     color: #F02B53;
 }
 

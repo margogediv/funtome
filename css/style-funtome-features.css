@@ -1,5 +1,26 @@
 
 
+.intro-features {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.features-container {
+    position: absolute;
+    /* top: -50%; */
+    transform: translateY(115%);
+} 
+
+.features-banner-title {
+    width: 100%;
+}
+
+.content-title-features {
+    margin-bottom: 50px;
+}
+
+
 /*********Features*******/
 
 .features-group {
