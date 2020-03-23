@@ -74,12 +74,18 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
+    justify-content: space-between;
 }
 
 .news-section {
-    width: 50%;
+    width: calc((100% - 80px)/2);
     margin-top: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .img-news {
@@ -102,7 +108,7 @@
     margin-bottom: 40px;
 }
 
-.style-text {
+.style-text-blog {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -116,6 +122,7 @@
 }
 
 .news-like-data {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
