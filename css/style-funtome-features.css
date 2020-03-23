@@ -1,5 +1,4 @@
 
-
 .intro-features {
     width: 100%;
     height: auto;
@@ -10,7 +9,7 @@
     position: absolute;
     /* top: -50%; */
     transform: translateY(90%);
-} 
+}
 
 .features-banner-title {
     width: 100%;
