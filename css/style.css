@@ -249,7 +249,10 @@ a {
     height: auto;
     position: relative;
     background-size: cover;
-
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
 }
 
 .intro-banner {
@@ -731,5 +734,7 @@ footer {
 .owl-carousel.owl-theme-1 .owl-item img {
     width: auto;
 }
+
+
 
 
