@@ -316,9 +316,19 @@
             <div class="container">
                 <div class="popular-articles">
                     <p class="news-title-first">Популярные новости</p>
-                    <div class="slider-popular">
-                        
-                    </div>
+                    <div class="slider-group">
+                        <div id="slider-2" class="owl-carousel owl-theme">
+                            <div class="slider-popular">
+                                <img src="img/funtome-blog/slider/slider-1.png" alt="">
+                            </div>
+                            <div class="slider-popular">
+                                <img src="img/funtome-blog/slider/slider-1.png" alt="">
+                            </div>
+                            <div class="slider-popular">
+                                <img src="img/funtome-blog/slider/slider-1.png" alt="">
+                            </div>
+                        </div>    
+                    </div>    
                 </div>
             </div>    
 
@@ -388,11 +398,10 @@
 
 <script>
     $(document).ready(function () {
-        $("#slider_1").owlCarousel({
-            'items': 1,
+        $("#slider-2").owlCarousel({
+            'items': 3,
             'loop': true,
-            // 'autoplay': true,
-            // 'autoplayTimeout': 3000,
+            'margin': 29,
             'autoplayHoverPause': true,
             'nav': true,
         });

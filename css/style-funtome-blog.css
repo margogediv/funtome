@@ -203,8 +203,18 @@
     margin-bottom: 200px;
 }
 
-.slider-popular {
-    margin-top: 50px;
+.slider-group {
+    display: flex;
+    width: 100%;
 }
 
+.slider-popular {
+    margin-top: 50px;
+    
+}
+
+
+.owl-carousel .owl-nav.disabled {
+    display: ;
+}
 
