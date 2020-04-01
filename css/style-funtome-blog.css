@@ -68,8 +68,8 @@
     font-weight: 300;
     font-size: 50px;
     line-height: 150%;
-    text-transform: capitalize;
     color: #1FB14D;
+    margin-bottom: 50px;
 }
 
 .news-iteam {
@@ -197,24 +197,5 @@
     color: rgb(0, 0, 0);
 }
 
-/*********popular-articles*******/
 
-.popular-articles {
-    margin-bottom: 200px;
-}
-
-.slider-group {
-    display: flex;
-    width: 100%;
-}
-
-.slider-popular {
-    margin-top: 50px;
-    
-}
-
-
-.owl-carousel .owl-nav.disabled {
-    display: ;
-}
 
