@@ -231,3 +231,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.slider-popular {
+  position: relative;
+}
+
+.name-text {
+  font-family: 'Comfortaa', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
