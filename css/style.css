@@ -182,14 +182,19 @@ a {
     z-index: 1000;
 }
 
+.border-header {
+    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    position: relative;
+}
+
 
 .header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-top: 37px;
-    padding-bottom: 37px;
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
 
 .header-inner {
@@ -197,6 +202,12 @@ a {
     justify-content: space-between;
     text-align: center;
     padding: 20px 0;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -241,6 +252,9 @@ a {
     margin-right: 20px;
 }
 
+.black-style li {
+    color: black;
+}
 
 /*===================intro=================*/
 

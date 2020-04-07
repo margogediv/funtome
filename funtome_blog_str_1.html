@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+    <title>Funtome</title>
+    <meta name="description" content="Mobile product company"/>
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Roboto:300,400&display=swap&subset=cyrillic,cyrillic-ext"
+            rel="stylesheet">
+
+    <link rel="stylesheet" href="/js/owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style-funtome-blog-str-first.css">
+    <!-- <link rel="stylesheet" href="css/media/media.css"> -->
+
+</head>
+
+<body>
+
+<div id="app" class="app">
+
+    <!--- Header -->
+    <header class="header border-header">
+        <div class="container header-container">
+            <div class="header-logo">
+                <a href="/">
+                    <img class="logo" src="img/logo_funtome_black.svg" alt=""/>
+                </a>
+                <a href="/">
+                    <img src="img/lang_black.svg" alt=""/>
+                </a>
+            </div>
+
+            <div class="nav ">
+                <ul class="nav-list black-style">
+                    <li class="link-home active">
+                        <a href="index.html">главная</a>
+                    </li>
+                    <li class="link-features">
+                        <a href="funtome_features.html">особенности</a>
+                    </li>
+                    <li class="link-blog">
+                        <a href="funtome_blog.html">блог</a>
+                    </li>
+                    <li class="link-help">
+                        <a href="#">поддержка</a>
+                    </li>
+                    <li class="link-paki">
+                        <a href="#">паки</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header-instal">
+                <a href="#"><img class="instal-apple" src="img/icon/apple_icon_black.png" alt=""/></a>
+                <a href="#"><img class="instal-google" src="img/icon/google_icon_black.png" alt=""/></a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="content">
+
+        <div class="container">
+            <div class="news-blog-first">
+                <div class="news-data">
+                    <h2 class="news-data-name">Новости</h2>
+                    <div class="news-data-data">04 декабря 2019</div>
+                </div>
+                <div class="news-name-title">Хайп в молодежном сленге – простыми словами</div>
+                <div class="news-like-social">
+                    <div class="news-like-view">
+                        <div class="news-view">
+                            <img src="img/funtome-blog/view.png" alt="">
+                            <h4>1266</h4>
+                        </div>
+                        <div class="news-like">
+                            <img src="img/funtome-blog/like.png" alt="">
+                            <h4>876</h4>
+                        </div>
+                    </div>
+                    <div class="news-social"></div>
+                </div>
+            </div>
+        </div>    <!-- container end -->
+        
+    </div> <!-- content end -->
+
+    <footer>
+        <div class="footer">
+            <div class="container footer-container">
+
+                <div class="footer-funtome">
+                    <div class="footer-icon mr25">
+                        <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
+                    </div>
+                    <div class="funtome-text">Funtome Messenger</div>
+                    <span class="arrow-next mr68"></span>
+                    <div class="butt-mobile">
+                        <a href="#" class="butt-instal butt-green-border mr30">
+                            <img src="img/butt/butt_app.png" alt="">
+                        </a>
+                        <a href="#" class="butt-instal butt-green-border">
+                            <img src="img/butt/butt_google.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-contact">
+                    <div class="copyright">2018-2019 UAB"FlowTech Pro"</div>
+                    <div class="address">Лауру 36F, Вильнюс, Литва</div>
+                    <div class="footer-contacts">
+                        <a href="info@funtome.com" class="mail">info@funtome.com</a>
+                    </div>
+                </div>
+
+                <div class="icon-social-footer">
+                    <a href="#" class="icon-footer mr30">
+                        <img src="img/icon/inst.png" alt="">
+                    </a>
+                    <a href="#" class="icon-footer mr30">
+                        <img src="img/icon/facebook.png" alt="">
+                    </a>
+                    <a href="#" class="icon-footer mr30">
+                        <img src="img/icon/vk.png" alt="">
+                    </a>
+                    <a href="#" class="icon-footer">
+                        <img src="img/icon/youtube.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div> <!-- end footer -->
+
+    </footer>
+
+</div> <!-- End App -->
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/owlCarousel/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#slider_1").owlCarousel({
+            'items': 1,
+            'loop': true,
+            // 'autoplay': true,
+            // 'autoplayTimeout': 3000,
+            'autoplayHoverPause': true,
+            'nav': true,
+        });
+    });
+</script>
+
+</body>
+
+
+</html>

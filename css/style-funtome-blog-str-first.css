@@ -1,0 +1,16 @@
+/* news-blog-first */
+
+.news-data {
+    display: flex;
+    margin-top: 75px;
+}
+
+.news-data-name {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background-color: #F02B53;;
+}
