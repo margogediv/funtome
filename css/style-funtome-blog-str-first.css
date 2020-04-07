@@ -62,3 +62,94 @@
 .news-social-syle {
     margin-right: 12px;
 }
+
+/* Text-content */
+
+.text-content {
+    display: flex;
+    margin-top: 35px;
+}
+
+.news-content {
+    width: 61%;
+}
+
+.news-content-text {
+    margin-bottom: 20px;
+}
+
+.news-title {
+    margin-bottom: 10px;
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #1FB14D;
+}
+
+.news-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.photo-str-1 {
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+
+/* News-bar */
+
+.news-bar {
+    width: 45%;
+}
+
+.blok-search {
+    margin-bottom: 50px;
+}
+
+.article-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #F02B53;
+    margin-bottom: 20px;
+}
+
+.blok-content {
+    display: flex;
+}
+
+/* .blok-content-title {
+    display: block;
+} */
+
+.blok-content-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: #111111;
+}    
+
+.blok-content-data {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    color: #666666;
+}
+
