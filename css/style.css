@@ -170,7 +170,8 @@ a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-}
+}    
+
 
 /*==========header========================*/
 
@@ -246,6 +247,7 @@ a {
 
 .nav-list li:hover {
     background: #199C3D;
+
 }
 
 .instal-apple {
@@ -254,6 +256,10 @@ a {
 
 .black-style li {
     color: black;
+}
+
+.nav-list.black-style li:hover {
+    color: #FFFFFF;;
 }
 
 /*===================intro=================*/
@@ -270,6 +276,9 @@ a {
 }
 
 .intro-banner {
+    /* height: 1000px;
+    max-width: initial;
+    width: auto; */
     z-index: -1000;
 }
 
@@ -398,6 +407,7 @@ a {
     background: #FFFFFF;
     border-radius: 6px 0 0 6px;
     transform: translateY(-50%);
+    box-shadow: -1px 0px 5px rgba(0, 0, 0, 0.15);
 }
 
 .icon-fixet {
