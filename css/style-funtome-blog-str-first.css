@@ -113,7 +113,27 @@
 }
 
 .blok-search {
+    display: flex;
     margin-bottom: 50px;
+
+}
+
+.input-search {
+    width: 350px;
+    height: 37px;
+    padding: 8px 12px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #5E6973;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.search-photo {
+    max-width: 100%;
 }
 
 .blok-categories {
