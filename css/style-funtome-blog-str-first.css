@@ -295,6 +295,7 @@
 
 .user-comments {
     display: flex;
+    margin-bottom: 41px;
 }
 
 .block-comments {
@@ -307,6 +308,7 @@
 .user-name {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 10px;
    
 }
 
@@ -336,6 +338,7 @@
     font-size: 20px;
     line-height: 135%;
     color: #333333;
+    margin-bottom: 30px;
 
 }
 
@@ -347,4 +350,33 @@
     line-height: 19px;
     color: #888888;
 
+}
+
+.block-replay {
+    display: flex;
+    margin-top: 20px;
+}
+
+.replay-comments-block {
+
+}
+
+.replay-form {
+    max-width: 100%;
+    width: 886px;
+    height: 40px;
+    padding: 14px 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8F8F8F;
+    border: 1px solid rgba(94, 105, 115, 0.3);
+    border-radius: 4px;
+    
+}
+
+.replay-button {
+    max-width: 100%;
 }

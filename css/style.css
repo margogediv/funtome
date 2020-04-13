@@ -519,6 +519,7 @@ a {
 
 .conditiuns {
     display: flex;
+    justify-content: center;
 }
 
 .style-conditions {
