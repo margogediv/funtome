@@ -538,3 +538,19 @@ input::placeholder {
     text-transform: uppercase;
     color:  #1FB14D;
 }
+
+
+.svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  .clipped {
+    width: 285px;
+    height: 300px;
+    background: url(/img/funtome-blog/11.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-clip-path: url(#my-clip-path);
+    clip-path: url(#my-clip-path);
+  }
