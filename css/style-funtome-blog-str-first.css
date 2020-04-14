@@ -455,3 +455,86 @@ input::placeholder {
     color:  #1FB14D;
     transition: color .1s linear;
 }
+
+/* form-user-comments-text */
+
+.form-user-comments-text {
+    display: flex;
+    margin-bottom: 96px;
+    
+}
+
+.form-border {
+    width: 100%;
+    box-shadow: 0px 0px 4px #DCDCDC;
+    border-radius: 18px;
+    padding: 20px 110px;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #5E6973;
+}
+
+.block-user-photo-text {
+    display: flex;
+
+}
+
+.user-form-text {
+    margin-bottom: 30px;
+}
+
+.user-from-text-style {
+    width: 860px;
+    height: 260px;
+    padding: 13px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 135%;
+    color: #333333;
+    border: 1px solid rgba(94, 105, 115, 0.3);
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.button-mess {
+    display: flex;
+}
+
+/* .butt-border-message:hover {
+    border: 2px solid #1FB14D;
+    color:  #1FB14D;
+    transition: color .1s linear;
+
+} */
+
+.butt-border-message {
+    padding: 17px 30px;
+    border: 2px solid #1FB14D;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.butt-border-message-style {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color:  #1FB14D;
+}
