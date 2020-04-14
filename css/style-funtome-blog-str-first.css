@@ -115,6 +115,15 @@
 
 /* News-bar */
 
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #D5D5D5;
+}
+
 .news-bar {
     width: 45%;
     max-width: 390px;
@@ -174,6 +183,7 @@
 }
 
 .blok-img {
+    background-image: url('/img/funtome-blog/photo/854ea8910c9911c841e845e7743753ab.png');
     max-width: 137px;
     height: auto;
 }
