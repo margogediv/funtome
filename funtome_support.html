@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
 
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/style-funtome-paki.css">
+    <link rel="stylesheet" href="css/style-funtome-support.css">
     <!-- <link rel="stylesheet" href="css/media/media.css"> -->
 
 </head>
@@ -76,12 +76,12 @@
 
                     <div class="intro-content">
                         <div class="content-title">
-                            <img src="img/funtome-paki/funtome-paki-title.png" alt="">
+                            <img src="img/funtome-support/funtome-support-title.png" alt="">
                         </div>
                         <div class="contetnt-subtitle">
                             <p class="text-red">Funtome Messenger</p>
                         </div>
-                        <div class="content-text">Забавные и серьезные, милые и зловещие, будничные и праздничные! Такие разные паки Funtome. Найди тот, что подходит тебе!</div>
+                        <div class="content-text">Мы всегдя рядом!</div>
                     </div>
                 </div>
 
@@ -103,7 +103,7 @@
             </div>
 
             <div class="intro-banner">
-                <img src="img/funtome-paki/photo-paki-desk.jpg" 
+                <img src="img/funtome-support/photo-support-desk.jpg" 
                 alt="">                
             </div>
 
@@ -112,9 +112,76 @@
         <!-- Content block -->
         <div class="content-block">
 
-            <div class="container">  
+            <div class="container-center">  
 
+                <div class="support-block">
+                    <div class="support-title">
+                        <div class="support-title-red">У меня возникли технические неполадки</div>
+                        <div class="support-subtitle">Выберите из предложенного</div>
+                    </div>
+
+                    <div class="select">
+                        <div class="current select-input" onclick="selectChose(this);" data-key="" data-value=""></div>
+                        <div class="list">
+                            <div class="select-input list-item" onclick="selectItem(this)" data-key="1" data-value="Ошибка 1">
+                                Не приходит SMS с кодом активации
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)" data-key="2" data-value="Ошибка 2">
+                                Не приходят уведомления
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)" data-key="3" data-value="Ошибка 3">
+                                Не устанавливается фото
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)" data-key="4" data-value="Ошибка 4">
+                                Не отправляется голосовое сообщение
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="5" data-value="Ошибка 5">
+                                Не отправляются медиа файлы
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="6" data-value="Ошибка 6">
+                                Не получается пригласить друга
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="7" data-value="Ошибка 7">
+                                Не получаю фанумы за активность
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="8" data-value="Ошибка 8">
+                                Не подходит мой номер телефона
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="9" data-value="Ошибка 9">
+                                Не хочу давать разрешения на доступ к устройству
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="10" data-value="Ошибка 10">
+                                Не могу удалить свой профиль из приложения
+                            </div>
+                            <div class="select-input list-item" onclick="selectItem(this)"  data-key="11" data-value="Ошибка 11">
+                                Другое
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="support-window">
+                        <div class="group-user-message">
+                            <div class="user-form-text">
+                                <textarea name="message" cols="30" rows='10' class="user-from-text-style" placeholder="Текст сообщения"></textarea>
+                            </div>
+                            <div class="support-data">
+                                <input class="input-support-style" type="text" placeholder="Имя" color="#D5D5D5" >
+                                <input class="input-support-style" type="text" placeholder="E-mail *" color="#D5D5D5" >
+                            </div>
+                            <div class="button-mess">
+                                <a href="#" class="butt-border-message">
+                                    <span class="butt-border-message-style">Отправить</span>
+                                </a>                                      
+                            </div> 
+                        </div>     
+                    </div>
+                </div>
                 
+            </div>
+
+            <div class="conditiuns">
+                <a href="#" class="style-conditions mr50">Условия пользования</a>
+                <a href="#" class="style-conditions">Политика конфиденциальности</a>
             </div>
 
         </div> <!-- content-block end -->
@@ -170,7 +237,7 @@
 
 </div> <!-- End App -->
 
-
+<script src="js/app.js"></script>
 <script src="/js/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="/js/owlCarousel/owl.carousel.min.js"></script>
