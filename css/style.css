@@ -248,8 +248,7 @@ a {
     color: #FFFFFF;
   }
   
-  .nav-list li:hover,
-  .nav-list li.active {
+  .nav-list li:hover {
     background: #199C3D;
     transition: all 0.2s;
   }

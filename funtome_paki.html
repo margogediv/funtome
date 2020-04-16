@@ -9,9 +9,7 @@
     <title>Funtome</title>
     <meta name="description" content="Mobile product company"/>
 
-    <link
-            href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Roboto:300,400&display=swap&subset=cyrillic,cyrillic-ext"
-            rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/js/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
@@ -114,7 +112,14 @@
             <div class="container">  
 
                 <div class="block-menu-bar">
-                    <div class="sorting-pak"></div>
+                    <div class="sorting-pak">
+                        <span class="sorting-pak-style">Показать</span>
+                            <input type="radio" id="radio" name="radio" /> 
+                            <label class="sorting-pak-style sorting-bold" for="radio">анимированные</label>
+                            
+                            <input type="radio" id="radio1" name="radio" /> 
+                            <label class="sorting-pak-style sorting-bold" for="radio1">новые</label>
+                    </div>
                     <div class="search-block"></div>
                     <div class="structure"></div>
                 </div>
@@ -124,9 +129,12 @@
                     <div class="card-paki">
                         <div class="photo-paki">
                             <div class="photo-paki-style" width="285" height="300">
-                                    <svg class="svg-style" width="285" height="300" viewBox="0 0 285 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" stroke="#DEE2EA" stroke-width="2" stroke-opacity="0.3"></path>
-                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" stroke="#DEE2EA" stroke-width="2" fill="url(#pattern6)" stroke-opacity="0.3"></path>
+                                    <svg class="svg-style" width="285" height="300" viewBox="0 0 285 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
+                                        filter: drop-shadow(0px 0px 5px rgba(98, 98, 98, 0.3));
+                                        margin-left: -8px;
+                                        width: 290px;
+                                        border-radius: 8px;">
+                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" fill="url(#pattern6)"></path>
                                         <defs>
                                             <pattern id="pattern6" width="100%" height="100%">           
                                                 <image id="image6" width="285" height="300" xlink:href="/img/funtome-paki/paki-img/pak-1.png" preserveAspectRatio="xMidYMid slice"></image>
@@ -141,9 +149,84 @@
                                 <div class="subtitle-paki">21 Картинка</div>
                             </div>
                         </div>
-                    </div>  
+                    </div>  <!-- card-paki end -->
 
-                </div>
+                    <div class="card-paki">
+                        <div class="photo-paki">
+                            <div class="photo-paki-style" width="285" height="300">
+                                    <svg class="svg-style" width="285" height="300" viewBox="0 0 285 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
+                                        filter: drop-shadow(0px 0px 5px rgba(98, 98, 98, 0.3));
+                                        margin-left: -8px;
+                                        width: 290px;
+                                        border-radius: 8px;">
+                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" fill="url(#pattern6)"></path>
+                                        <defs>
+                                            <pattern id="pattern6" width="100%" height="100%">           
+                                                <image id="image6" width="285" height="300" xlink:href="/img/funtome-paki/paki-img/pak-1.png" preserveAspectRatio="xMidYMid slice"></image>
+                                            </pattern>
+                                        </defs>
+                                    </svg>
+                            </div>         
+                        </div>
+                        <div class="description-paki">
+                            <div class="border-paki">
+                                <div class="title-paki">Футбол - 1</div>
+                                <div class="subtitle-paki">15 Картинок</div>
+                            </div>
+                        </div>
+                    </div>  <!-- card-paki end -->
+
+                    <div class="card-paki">
+                        <div class="photo-paki">
+                            <div class="photo-paki-style" width="285" height="300">
+                                    <svg class="svg-style" width="285" height="300" viewBox="0 0 285 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
+                                        filter: drop-shadow(0px 0px 5px rgba(98, 98, 98, 0.3));
+                                        margin-left: -8px;
+                                        width: 290px;
+                                        border-radius: 8px;">
+                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" fill="url(#pattern6)"></path>
+                                        <defs>
+                                            <pattern id="pattern6" width="100%" height="100%">           
+                                                <image id="image6" width="285" height="300" xlink:href="/img/funtome-paki/paki-img/pak-1.png" preserveAspectRatio="xMidYMid slice"></image>
+                                            </pattern>
+                                        </defs>
+                                    </svg>
+                            </div>         
+                        </div>
+                        <div class="description-paki">
+                            <div class="border-paki">
+                                <div class="title-paki">Сладкая жизнь</div>
+                                <div class="subtitle-paki">17 Картинок</div>
+                            </div>
+                        </div>
+                    </div>  <!-- card-paki end -->
+
+                    <div class="card-paki">
+                        <div class="photo-paki">
+                            <div class="photo-paki-style" width="285" height="300">
+                                    <svg class="svg-style" width="285" height="300" viewBox="0 0 285 300" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
+                                        filter: drop-shadow(0px 0px 5px rgba(98, 98, 98, 0.3));
+                                        margin-left: -8px;
+                                        width: 290px;
+                                        border-radius: 8px;">
+                                        <path d="M 5 19 C 5 11.268 11.268 5 19 5 L 107.846 5 C 110.104 5 112.251 5.9526 113.877 7.51852 C 119.415 12.8512 133.395 24.797 147.5 24.797 C 161.605 24.797 175.585 12.8512 181.123 7.51852 C 182.749 5.9526 184.896 5 187.154 5 L 276 5 C 283.732 5 290 11.268 290 19 V 291 C 290 298.732 283.732 305 276 305 H 183.609 H 147.5 H 111.391 H 19 C 11.268 305 5 298.732 5 291 L 5 19 Z" fill="url(#pattern6)"></path>
+                                        <defs>
+                                            <pattern id="pattern6" width="100%" height="100%">           
+                                                <image id="image6" width="285" height="300" xlink:href="/img/funtome-paki/paki-img/pak-1.png" preserveAspectRatio="xMidYMid slice"></image>
+                                            </pattern>
+                                        </defs>
+                                    </svg>
+                            </div>         
+                        </div>
+                        <div class="description-paki">
+                            <div class="border-paki">
+                                <div class="title-paki">Крошки- единорожки</div>
+                                <div class="subtitle-paki">15 Картинок</div>
+                            </div>
+                        </div>
+                    </div>  <!-- card-paki end -->
+
+                </div> <!-- paki-catalog end -->
 
                 <div class="conditiuns">
                     <a href="#" class="style-conditions mr50">Условия пользования</a>
