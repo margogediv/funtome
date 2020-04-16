@@ -1,7 +1,13 @@
 
 .block-menu-bar {
+    display: flex;
+    align-items: center;
     margin-top: 100px;
     margin-bottom: 90px;
+}
+
+.sorting-pak {
+    margin-right: 175px;
 }
 
 .sorting-pak-style {
@@ -41,6 +47,74 @@ input[type=radio]:checked + label:before {
 .sorting-bold {
     font-weight: 500;
     margin-right: 25px;
+}
+
+.search-block {
+    position: relative;
+    margin-right: 115px;
+}
+
+input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #222222;
+}
+
+.search-photo-pak {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+}
+
+.input-search-pak {
+    width: 370px;
+    height: 55px;
+    padding: 16px 20px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 135%;
+    color: #333333;
+}
+
+.structure {
+    display: flex;
+    float: right;
+}
+
+.paki-list {
+    width: 55px;
+    height: 55px;
+    display: block;
+    background-image: url(/img/funtome-paki/paki-list.svg);
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+
+.paki-list:active {
+    background-image: url(/img/funtome-paki/paki-list-active.svg);
+}
+
+.paki-tabl {
+    width: 55px;
+    height: 55px;
+    display: block;
+    background-image: url(/img/funtome-paki/paki-tabl.svg);
+    background-repeat: no-repeat;
+}
+
+.paki-tabl:active {
+    background-image: url(/img/funtome-paki/paki-tadl-active.svg);
 }
 
 .paki-catalog {
