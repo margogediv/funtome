@@ -31,13 +31,13 @@
     border-radius: 6px;
     background: #fff;
     cursor: pointer;
+    background: rgba(70, 91, 111, 0.08);
 }
 
 .select .select-input {
     width: 860px;
     height: 52px;
     padding: 10px 15px;
-    background: rgba(70, 91, 111, 0.08);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -72,7 +72,6 @@
 }
 
 .select-input {
-    background: #2C2E31;
     color: #BCBCBC;
     font-weight: 300;
 }

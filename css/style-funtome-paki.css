@@ -73,7 +73,6 @@ input::placeholder {
 }
 
 button[type="submit"] {
-
     margin-top: 2px;
     padding: 0 0;
     width: 28px;
@@ -83,9 +82,7 @@ button[type="submit"] {
     background-image: url(/img/funtome-paki/Search.png);
     background-repeat: no-repeat;
     background-color:transparent;
-    
-    
-   }
+}
 
    input[type="text"] {
     width: 280px;   
@@ -96,9 +93,6 @@ button[type="submit"] {
    }
 
 .input-search-pak {
-    
-    
-    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -145,18 +139,27 @@ button[type="submit"] {
 }
 
 .card-paki {
-    max-width: 285px;
-    width: 100%;
+    width: calc((100% - 99px)/4);
     height: 450px;
     margin-left: 33px;
+    margin-bottom: 100px;
 }
 
-.card-paki:first-child {
+.card-paki:nth-child(4n+1) {
     margin-left: 0;
 }
 
 .photo-paki {
     display: flex;
+    position: relative;
+}
+
+.svg-style {
+    filter: drop-shadow(0px 0px 5px rgba(98, 98, 98, 0.3));
+    margin-left: -8px;
+    width: 290px;
+    height: 300px;
+    border-radius: 8px;
 }
 
 .description-paki {
@@ -194,3 +197,88 @@ button[type="submit"] {
     font-size: 20px;
     line-height: 150%;
 }
+
+.live {
+    width: 96px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(/img/funtome-paki/LIVE.png);  
+}
+
+
+.tabl-paki {
+    display: flex;
+}
+
+.title-paki-style {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.paki-catalog.style-row .card-paki {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-left: 0;
+}
+
+.paki-catalog.style-row .svg-style {
+    width: 240px;
+    height: 252px;
+}
+
+.paki-catalog.style-row .description-paki {
+    margin-top: 5px;
+    width: 100%;
+    height: 252px;
+    border: none;
+    margin-left: 20px;
+}
+
+.paki-catalog.style-row .border-paki {
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.paki-catalog.style-row .title-paki {
+    margin-bottom: 70px;
+    
+}
+
+.paki-catalog.style-row .subtitle-paki {
+    margin-bottom: 32px;
+}
+
+.paki-catalog.style-row .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paki-catalog.style-row .list-iteam {
+    width: calc((100% - 180px)/4);
+    margin-right: 60px;
+    margin-top: 12px;
+    list-style-type: none;
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #222222;
+}
+
+.paki-catalog.style-row .list-iteam:nth-child(4n+4) {
+    margin-right: 0;
+}
+
+.list {
+    display: none;
+}
+
+.paki-catalog.style-row .list {
+    display: flex;
+}
+
+

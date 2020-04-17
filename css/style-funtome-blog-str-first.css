@@ -150,9 +150,21 @@ input::placeholder {
     border-radius: 3px;
 }
 
-.search-photo {
-    max-width: 100%;
+button[type="submit"] {
+    margin-top: 4px;
+    padding: 0 0;
+    width: 28px;
+    height: 28px;
+    border: none;
+    background-size: 100%;
+    background-image: url(/img/funtome-paki/Search.png);
+    background-repeat: no-repeat;
+    background-color:transparent;
 }
+
+/* .search-photo {
+    max-width: 100%;
+} */
 
 .blok-categories {
     margin: 50px 0;
