@@ -90,6 +90,10 @@ video {
     box-sizing: border-box;
 }
 
+:focus {
+  outline: 0;
+}
+
 body {
     line-height: 1;
     color: #00353F;

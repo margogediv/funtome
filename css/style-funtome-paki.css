@@ -6,10 +6,6 @@
     margin-bottom: 90px;
 }
 
-.sorting-pak {
-    margin-right: 175px;
-}
-
 .sorting-pak-style {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -50,8 +46,21 @@ input[type=radio]:checked + label:before {
 }
 
 .search-block {
-    position: relative;
-    margin-right: 115px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 370px;
+    height: 55px;
+    padding: 0 20px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.input-search-pak {
+    margin-right: 15px;
 }
 
 input::placeholder {
@@ -63,22 +72,33 @@ input::placeholder {
     color: #222222;
 }
 
-.search-photo-pak {
-    position: absolute;
-    top: 0;
-    right: 0;
+button[type="submit"] {
+
+    margin-top: 2px;
+    padding: 0 0;
     width: 28px;
     height: 28px;
-}
+    border: none;
+    background-size: 100%;
+    background-image: url(/img/funtome-paki/Search.png);
+    background-repeat: no-repeat;
+    background-color:transparent;
+    
+    
+   }
+
+   input[type="text"] {
+    width: 280px;   
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+   }
 
 .input-search-pak {
-    width: 370px;
-    height: 55px;
-    padding: 16px 20px;
-    background: #FFFFFF;
-    border: 1px solid #E5E5E5;
-    box-sizing: border-box;
-    border-radius: 8px;
+    
+    
+    
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -119,6 +139,7 @@ input::placeholder {
 
 .paki-catalog {
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     margin-bottom: 100px;
 }
