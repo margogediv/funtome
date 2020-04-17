@@ -113,9 +113,10 @@ button[type="submit"] {
     background-image: url(/img/funtome-paki/paki-list.svg);
     background-repeat: no-repeat;
     margin-right: 20px;
+    cursor: pointer;
 }
 
-.paki-list:active {
+.paki-list.active {
     background-image: url(/img/funtome-paki/paki-list-active.svg);
 }
 
@@ -125,9 +126,10 @@ button[type="submit"] {
     display: block;
     background-image: url(/img/funtome-paki/paki-tabl.svg);
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
-.paki-tabl:active {
+.paki-tabl.active {
     background-image: url(/img/funtome-paki/paki-tadl-active.svg);
 }
 

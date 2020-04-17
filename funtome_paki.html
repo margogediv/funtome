@@ -125,12 +125,12 @@
                             <button type="submit"> </button>
                     </form>
                     <div class="structure">
-                            <a href="#" class="paki-list"></a>
-                            <a href="#" class="paki-tabl"></a>    
+                            <span class="paki-list butt-style-structure" onclick="selectStyle(this, 'list')"></span>
+                            <span class="paki-tabl butt-style-structure active" onclick="selectStyle(this, 'table')"></span>    
                     </div>
                 </div>
 
-                <div class="paki-catalog">
+                <div id='paki-catalog' class="paki-catalog">
 
                     <div class="card-paki">
                         <div class="photo-paki">
@@ -466,6 +466,42 @@
         });
     });
 </script>
+
+<script>
+    function selectStyle (elem, style) {
+
+        let spisok = document.querySelectorAll('.butt-style-structure');
+        console.log(spisok);
+        for (let item of spisok) {
+            item.classList.remove('active');
+        }
+        elem.classList.add('active');
+
+        let list = document.getElementById('paki-catalog');
+        
+        if(style === 'list') {
+            list.classList.add('style-row');
+        } else {
+            list.classList.remove('style-row'); 
+        }
+    }
+</script>
+
+<!-- <script>
+    function selectStyle (elem, style) {
+
+        let spisok = $('.butt-style-structure').removeClass('active');
+        elem.classList.add('active');
+
+        let list =$('#paki-catalog');
+        
+        if(style === 'list') {
+            list.addClass('style-row');
+        } else {
+            list.removeClass('style-row'); 
+        }
+    }
+</script> -->
 
 </body>
 
