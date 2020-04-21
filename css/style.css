@@ -400,6 +400,8 @@ a {
 .butt-green-border {
     border: 2px solid #1FB14D;
     color: #16C54D;
+    border-radius: 3px;
+    letter-spacing: 0.15em;
 }
 
 .butt-green-border:hover {

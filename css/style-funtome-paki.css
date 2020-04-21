@@ -137,7 +137,6 @@ button[type="submit"] {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-bottom: 100px;
 }
 
 .card-paki {
@@ -282,5 +281,61 @@ button[type="submit"] {
 .paki-catalog.style-row .list {
     display: flex;
 }
+
+/*********section-pages*******/
+
+.section-pages {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.pages-style {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #5E6973;
+    margin-left: 18px;
+}
+
+.pages li:first-child {
+    margin-left: 0;
+}
+
+.active {
+    font-style: bold;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+/* Slider-box */
+
+.slider-box {
+    margin-bottom: 200px;
+}
+
+.slider-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 150%;
+    color: #FD4B6F;
+    margin-bottom: 52px;
+}
+
 
 
