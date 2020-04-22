@@ -241,6 +241,22 @@ button[type="submit"] {
 .paki-catalog.style-row .border-paki {
     padding: 0;
     justify-content: flex-start;
+    position: relative;
+}
+
+.paki-catalog.style-row .list-butt::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(/img/funtome-paki/butt-megasse.svg);
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.turn::before {
+    transform: rotate(180deg);
 }
 
 .paki-catalog.style-row .title-paki {
@@ -253,6 +269,11 @@ button[type="submit"] {
 }
 
 .paki-catalog.style-row .list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-paki.style-megasse .list-megasse {
     display: flex;
     flex-wrap: wrap;
 }
@@ -280,6 +301,23 @@ button[type="submit"] {
 
 .paki-catalog.style-row .list {
     display: flex;
+}
+
+.list-megasse {
+    display: none;
+    position: relative;
+}
+
+.card-paki.style-megasse .list-megasse {
+    display: flex;
+}
+
+.card-paki.style-megasse .description-paki {
+    height: 410px;
+}
+
+.card-paki.style-megasse {
+    margin-bottom: 70px;
 }
 
 /*********section-pages*******/

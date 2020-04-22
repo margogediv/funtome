@@ -385,6 +385,7 @@ a {
 .butt-text {
     font-family: 'Comfortaa', sans-serif;
     font-style: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 18px;
     display: flex;
