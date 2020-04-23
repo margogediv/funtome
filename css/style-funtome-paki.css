@@ -144,6 +144,7 @@ button[type="submit"] {
     height: 450px;
     margin-left: 33px;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .card-paki:nth-child(4n+1) {
@@ -198,16 +199,6 @@ button[type="submit"] {
     font-size: 20px;
     line-height: 150%;
 }
-
-.live {
-    width: 96px;
-    height: 70px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(/img/funtome-paki/LIVE.png);  
-}
-
 
 .tabl-paki {
     display: flex;
@@ -379,6 +370,46 @@ button[type="submit"] {
     color: #FD4B6F;
     margin-bottom: 52px;
 }
+
+/* New Live */
+
+.photo-paki.live::before {
+    content: "";
+    width: 96px;
+    height: 70px;
+    background-image: url(/img/funtome-paki/LIVE.png);
+    background-size: 100%;
+    position: absolute;
+    top: -25px;
+    right: 50%;
+    transform: translate(50%);
+    z-index: 1000;
+}
+
+.photo-paki.new::after {
+    content: "";
+    width: 96px;
+    height: 70px;
+    background-image: url(/img/funtome-paki/NEW.png);
+    background-size: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1000;
+}
+
+.photo-paki.live.new::before {
+    right: 0;
+    transform: translate(0);
+}
+
+.photo-paki.new.live::after {
+    left: -5px;
+    transform: translate(0);
+}
+
+
 
 
 
