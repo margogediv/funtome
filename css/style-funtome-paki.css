@@ -357,8 +357,16 @@ button[type="submit"] {
 
 /* Slider-box */
 
+.slider-box .item {
+    padding: 25px 8px 0 8px;
+}
+
 .slider-box {
     margin-bottom: 200px;
+}
+
+.slider-box .card-paki {
+    width: 285px;
 }
 
 .slider-title {
@@ -373,7 +381,7 @@ button[type="submit"] {
 
 /* New Live */
 
-.photo-paki.live::before {
+.photo-paki-style.live::before {
     content: "";
     width: 96px;
     height: 70px;
@@ -386,7 +394,7 @@ button[type="submit"] {
     z-index: 1000;
 }
 
-.photo-paki.new::after {
+.photo-paki-style.new::after {
     content: "";
     width: 96px;
     height: 70px;
@@ -399,12 +407,12 @@ button[type="submit"] {
     z-index: 1000;
 }
 
-.photo-paki.live.new::before {
+.photo-paki-style.live.new::before {
     right: 0;
     transform: translate(0);
 }
 
-.photo-paki.new.live::after {
+.photo-paki-style.new.live::after {
     left: -5px;
     transform: translate(0);
 }
