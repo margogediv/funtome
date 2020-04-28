@@ -1,0 +1,125 @@
+.paki {
+    margin-top: 170px;
+    margin-right: 0;
+}
+
+.intro-container-paki {
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.title-red {
+    padding: 0 5px;
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background-color: #F02B53;
+    margin-bottom: 60px;
+}
+
+.title-green {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #29CD5D;
+    margin-bottom: 23px;
+}
+
+.content-text-paki {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.content-text-paki::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url(/img/funtome-paki-card/download.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+/* Paki-box */
+
+.paki-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.paki-blank {
+    width: calc((100% - 99px)/4);
+    height: 535px;
+    margin-left: 33px;
+    margin-bottom: 100px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.paki-blank:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.photo-blank {
+    width: 285px;
+    height: 285px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-blank-style {
+    width: calc(100% + 4px);
+    max-width: calc(100% + 4px);
+    margin-top: -2px;
+}
+
+.name-blank {
+    font-family: 'Comfortaa', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #F02B53;
+    margin-bottom: 32px;
+}
+
+.emotions-list,
+.options {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 110%;
+    text-transform: lowercase;
+    color: #333333;
+
+}
+
+.options {
+    color: #29CD5D;
+}
+
+.emotions-list {
+    margin-bottom: 18px;
+}
+
+.title-blank {
+    padding: 14px 21px;
+}

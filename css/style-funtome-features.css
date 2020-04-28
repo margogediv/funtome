@@ -28,6 +28,7 @@
 
 .features-iteam {
     display: flex;
+    position: relative;
     margin-bottom: 120px;
 }
 
@@ -35,8 +36,21 @@
     width: 47%;
 }
 
-.container-img {
-    width: 100%;
+.container-fon {
+    width: 560px;
+    height: 450px;  
+}
+
+.container-img-left {
+    position: absolute;
+    left: -61px;
+    top: -81px;
+}
+
+.container-img-right {
+    position: absolute;
+    right: -44px;
+    top: -108px;
 }
 
 .features-content {
