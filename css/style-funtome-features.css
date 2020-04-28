@@ -23,34 +23,38 @@
 /*********Features*******/
 
 .features-group {
-    margin: 167px 0 200px;
+    margin: 167px 0 0;
 }
 
 .features-iteam {
     display: flex;
     position: relative;
-    margin-bottom: 120px;
+   /*  margin-bottom: 120px; */
 }
 
 .features-photo {
-    width: 47%;
+    width: 680px;
+    height: 560px;
 }
 
-.container-fon {
+/* .container-fon {
     width: 560px;
-    height: 450px;  
-}
+    height: 450px;
+    background: #556D84;
+    box-shadow: 0px 0px 10px rgba(0, 39, 179, 0.08);
+    border-radius: 20px;  
+} */
 
 .container-img-left {
     position: absolute;
-    left: -61px;
-    top: -81px;
+    left: -71px;
+    top: -75px;
 }
 
 .container-img-right {
     position: absolute;
-    right: -44px;
-    top: -108px;
+    right: -66px;
+    top: -102px;
 }
 
 .features-content {
