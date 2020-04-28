@@ -1,3 +1,24 @@
+/* Intro style */
+
+.support {
+    background: url('/img/funtome-support/photo-support-desk.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.features-container {
+    width: 100%;
+    margin-top: 194px;
+}
+
+.features-banner-title {
+    width: 100%;
+}
+
+/* Content */
+
+.content-title-features {
+    margin-bottom: 50px;
+}
 
 .support-block {
     margin-top: 30px;
@@ -83,7 +104,7 @@
 }
 
 .select.active .list {
-    display: block;    
+    display: block;
 }
 
 .support-window {
@@ -129,7 +150,7 @@
     align-items: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color:  #1FB14D;
+    color: #1FB14D;
 }
 
 .support-data {
@@ -162,6 +183,7 @@ input::placeholder {
     letter-spacing: 0.5px;
     color: #ACACAC;
 }
+
 textarea::placeholder {
     font-family: 'Roboto', sans-serif;
     font-style: normal;

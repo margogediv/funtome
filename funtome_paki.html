@@ -22,67 +22,66 @@
 
 <body>
 
-<div id="app" class="app">
+    <div id="app" class="app">
 
-    <!--- Header -->
-    <header class="header">
-        <div class="container header-container">
-            <div class="header-logo">
-                <a href="/">
-                    <img class="logo" src="img/logo_funtome.svg" alt=""/>
-                </a>
-                <a href="/">
-                    <img src="img/lang.svg" alt=""/>
-                </a>
+        <!--- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header-logo">
+                        <a href="/">
+                            <img class="logo" src="img/logo_funtome.svg" alt="" />
+                        </a>
+                        <a href="/">
+                            <img src="img/lang.svg" alt="" />
+                        </a>
+                    </div>
+
+                    <div class="nav">
+                        <ul class="nav-list">
+                            <li class="link-home">
+                                <a href="index.html">главная</a>
+                            </li>
+                            <li class="link-home">
+                                <a href="funtome_features.html">особенности</a>
+                            </li>
+                            <li class="link-home">
+                                <a href="funtome_blog.html">блог</a>
+                            </li>
+                            <li class="link-home">
+                                <a href="funtome_support.html">поддержка</a>
+                            </li>
+                            <li class="link-home">
+                                <a href="funtome_paki.html">паки</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="header-instal">
+                        <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt="" /></a>
+                        <a href="#"><img class="instal-google" src="img/icon/google_icon.png" alt="" /></a>
+                    </div>
+                </div>
             </div>
-
-            <div class="nav">
-                <ul class="nav-list">
-                    <li class="link-home">
-                        <a href="index.html">главная</a>
-                    </li>
-                    <li class="link-home">
-                        <a href="funtome_features.html">особенности</a>
-                    </li>
-                    <li class="link-home">
-                        <a href="funtome_blog.html">блог</a>
-                    </li>
-                    <li class="link-home">
-                        <a href="funtome_support.html">поддержка</a>
-                    </li>
-                    <li class="link-home">
-                        <a href="funtome_paki.html">паки</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="header-instal">
-                <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt=""/></a>
-                <a href="#"><img class="instal-google" src="img/icon/google_icon.png" alt=""/></a>
-            </div>
-
-        </div>
-    </header>
-
-    <div class="content">
+        </header>
 
         <!--- Intro -->
-        <div class="intro">
-            <div class="container-center">
+        <div class="intro paki">
 
-                <div class="intro-container">
+            <div class="container">
+                <div class="features-container">
 
-                    <div class="intro-content">
-                        <div class="content-title">
-                            <img src="img/funtome-paki/funtome-paki-title.png" alt="">
+                    <div class="features-banner-title">
+                        <div class="content-title-features">
+                            <h1 class="h1-ru">Паки</h1>
                         </div>
                         <div class="contetnt-subtitle">
                             <p class="text-red">Funtome Messenger</p>
                         </div>
                         <div class="content-text">Забавные и серьезные, милые и зловещие,<br> будничные и праздничные! Такие разные паки<br> Funtome. Найди тот, что подходит тебе!</div>
                     </div>
-                </div>
 
+                </div>
             </div>
 
             <div class="icon-social">
@@ -99,13 +98,7 @@
                     <img src="img/icon/youtube.png" alt="">
                 </a>
             </div>
-
-            <div class="intro-banner">
-                <img src="img/funtome-paki/photo-paki-desk-min.jpg" 
-                alt="">                
-            </div>
-
-        </div> <!-- end Intro -->
+        </div> 
 
         <!-- Content block -->
         <div class="content-block">
@@ -179,7 +172,7 @@
                             
                             </div>
                         </a>  <!-- card-paki end -->
-                       
+                    
                     
                     <a href="/funtome-paki-card.html" id="card-paki" class="card-paki">
                         <div class="photo-paki">
@@ -760,7 +753,7 @@
                 </div> <!-- paki-catalog end -->
 
                 <div class="container-center">
-             
+            
                     <div class="section-pages">
                         <ul class="pages">
                             <li class="pages-style">
@@ -1089,12 +1082,14 @@
                 </div>
             </div>
         </div> <!-- content-block end -->
-    </div> <!-- content end -->
+
+            
+    </div>  <!-- end app -->
 
     <footer>
         <div class="footer">
-            <div class="container footer-container">
 
+            <div class="container footer-container">
                 <div class="footer-funtome">
                     <div class="footer-icon mr25">
                         <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
@@ -1133,84 +1128,81 @@
                         <img src="img/icon/youtube.png" alt="">
                     </a>
                 </div>
-
             </div>
-        </div> <!-- end footer -->
 
+        </div> <!-- end footer -->
     </footer>
 
-</div> <!-- End App -->
+    
+    <script src="/js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/js/owlCarousel/owl.carousel.min.js"></script>
 
-
-<script src="/js/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/owlCarousel/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-        $("#slider-3").owlCarousel({
-            'items': 4,
-            'slideBy': 4,
-            'loop': true,
-            /* 'autoplayHoverPause': true, */
-            'nav': true,
+    <script>
+        $(document).ready(function () {
+            $("#slider-3").owlCarousel({
+                'items': 4,
+                'slideBy': 4,
+                'loop': true,
+                /* 'autoplayHoverPause': true, */
+                'nav': true,
+            });
         });
-    });
-</script>
+    </script>
 
-<script>
-    function selectStyle (elem, style) {
+    <script>
+        function selectStyle (elem, style) {
 
-        let spisok = document.querySelectorAll('.butt-style-structure');
-        console.log(spisok);
-        for (let item of spisok) {
-            item.classList.remove('active');
+            let spisok = document.querySelectorAll('.butt-style-structure');
+            console.log(spisok);
+            for (let item of spisok) {
+                item.classList.remove('active');
+            }
+            elem.classList.add('active');
+
+            let list = document.getElementById('paki-catalog');
+            
+            if(style === 'list') {
+                list.classList.add('style-row');
+            } else {
+                list.classList.remove('style-row'); 
+            }
         }
-        elem.classList.add('active');
+    </script>
 
-        let list = document.getElementById('paki-catalog');
-        
-        if(style === 'list') {
-            list.classList.add('style-row');
-        } else {
-            list.classList.remove('style-row'); 
+    <!-- <script>
+        function selectStyle (elem, style) {
+
+            let spisok = $('.butt-style-structure').removeClass('active');
+            elem.classList.add('active');
+
+            let list =$('#paki-catalog');
+            
+            if(style === 'list') {
+                list.addClass('style-row');
+            } else {
+                list.removeClass('style-row'); 
+            }
         }
-    }
-</script>
+    </script> -->
 
-<!-- <script>
-    function selectStyle (elem, style) {
+    <script>
+        function changeButt (element) {
 
-        let spisok = $('.butt-style-structure').removeClass('active');
-        elem.classList.add('active');
+            if(element.classList.contains('turn')) {
+                element.classList.remove('turn');
+            } else {
+                element.classList.add('turn');
+            }
 
-        let list =$('#paki-catalog');
-        
-        if(style === 'list') {
-            list.addClass('style-row');
-        } else {
-            list.removeClass('style-row'); 
+            let parent = $(element).parents(".card-paki");
+            if(parent.hasClass('style-message')) {
+                parent.removeClass('style-message');
+            } else {
+                parent.addClass('style-message');
+            }
         }
-    }
-</script> -->
-
-<script>
-    function changeButt (element) {
-
-        if(element.classList.contains('turn')) {
-            element.classList.remove('turn');
-        } else {
-            element.classList.add('turn');
-        }
-
-        let parent = $(element).parents(".card-paki");
-        if(parent.hasClass('style-message')) {
-            parent.removeClass('style-message');
-        } else {
-            parent.addClass('style-message');
-        }
-    }
-</script>
+    </script>
 
 </body>
 

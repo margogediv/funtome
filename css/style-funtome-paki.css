@@ -1,4 +1,27 @@
 
+/* Intro style */
+
+.paki {
+    background: url('/img/funtome-paki/photo-paki-desk-min.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.features-container {
+    width: 100%;
+    margin-top: 194px;
+}
+
+.features-banner-title {
+    width: 100%;
+}
+
+.content-title-features {
+    margin-bottom: 50px;
+}
+
+
+/* Menu bar */
+
 .block-menu-bar {
     display: flex;
     align-items: center;

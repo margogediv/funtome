@@ -1,13 +1,15 @@
-.paki {
-    margin-top: 170px;
-    margin-right: 0;
+/* Intro style */
+
+.card {
+    background: url('/img/funtome-paki-card/photo-paki-card-desk-min.jpg') center no-repeat;
+    background-size: cover;
 }
 
-.intro-container-paki {
-    display: flex;
-    position: absolute;
-    left: 0;
+.title-card {
+
 }
+
+
 
 .title-red {
     padding: 0 5px;
@@ -17,7 +19,7 @@
     font-size: 26px;
     line-height: 150%;
     color: #FFFFFF;
-    background-color: #F02B53;
+    /* background-color: #F02B53; */
     margin-bottom: 60px;
 }
 

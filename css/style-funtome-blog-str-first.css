@@ -1,3 +1,21 @@
+/* Intro style */
+
+.block-str-first {
+    height: 0;
+}
+
+.link-home {
+    color: black;
+}
+
+.link-home:hover {
+    color: white;
+}
+
+
+
+
+
 
 .news-blog-first {
     margin: 75px 0 29px 0;

@@ -1,12 +1,8 @@
+/* Intro style */
 
-.intro {
+.features {
     background: url('/img/funtome-features/banner-features-desc.jpg') center no-repeat;
     background-size: cover;
-}
-
-.intro-features {
-    width: 100%;
-    height: auto;
 }
 
 .features-container {
@@ -23,7 +19,7 @@
 }
 
 
-/*********Features*******/
+/* Features */
 
 .features-group {
     margin: 167px 0 0;
@@ -86,9 +82,8 @@
     margin-bottom: 30px;
 }
 
-/*********Features_End*******/
 
-/* BUTTON ---*/
+/* BUTTON */
 
 .butt-text-green {
     font-family: 'Comfortaa', sans-serif;
@@ -103,8 +98,3 @@
 .butt-group {
     display: flex;
 }
-
-
-
-
-
