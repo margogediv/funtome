@@ -1,3 +1,4 @@
+/* Intro style */
 
 .blog {
     background: url('/img/funtome-blog/blog-photo-desc.jpg') center no-repeat;
@@ -17,7 +18,7 @@
     margin-bottom: 50px;
 }
 
-/*********Blog Menu*************/
+/* Blog Menu */
 
 .blog-menu {
     display: flex;
@@ -73,7 +74,7 @@
     opacity: 1;
 }
 
-/*************News*************/
+/* News */
 
 .news {
     margin-bottom: 50px;
@@ -176,7 +177,7 @@
     align-items: center;
 }
 
-/*********section-pages*******/
+/* Section-pages */
 
 .section-pages {
     width: 100%;

@@ -1,0 +1,109 @@
+@media screen and (width: 768px) {
+
+    /* Media header + intro */
+
+    .features {
+        background: url('/img/funtome-features/banner/banner-features-tabl.jpg') center no-repeat;
+    }
+
+    .features-container {
+        margin-top: 34px;
+    }
+    
+    .content-title-features {
+        margin-bottom: 24px;
+    }
+
+
+    /* Media style index */
+    
+    .intro {
+        height: 900px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        width: 50px;
+        height: 45px;
+    }
+
+    .local-switch {
+        width: 34px;
+        height: 34px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .instal-apple {
+        width: 26px;
+        height: 33px;
+        margin-right: 26px;
+    }
+
+    .instal-google {
+        width: 26px;
+        height: 29px;
+    }    
+
+    .h1-ru {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .contetnt-subtitle {
+        margin-bottom: 47px;
+       justify-content: center;
+    }
+
+    .text-red {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .content-text {
+        font-size: 18px;
+    }
+
+    /* Content block */
+
+    .features-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-bottom: 0;
+    }
+
+    .features-iteam {
+        display: block;
+        margin-bottom: 90px;
+    }
+
+    .features-group {
+        margin-top: 80px;
+    }
+
+    .features-photo {
+        height: 810px;
+    }
+
+    .container-img-left {
+       top: 230px;
+       left: 0;
+    }
+
+    .features-content {
+        width: 100%;
+    }
+
+    .container-img-right {
+        top: 230px;
+        right: 0;
+    }
+}
