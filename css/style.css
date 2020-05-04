@@ -241,6 +241,11 @@ a {
   text-transform: capitalize;
 }
 
+.black {
+  color: #5E6973;
+  border: 1px solid rgba(85, 85, 85, 0.1);  
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -354,7 +359,7 @@ a {
 }
 
 .home {
-  background: url('/img/header-photo_desc.jpg') center no-repeat;
+  background: url('/img/funtome-home/header-photo_desc.jpg') center no-repeat;
   background-size: cover;
 }
 
