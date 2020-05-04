@@ -614,7 +614,8 @@ a {
   justify-content: center;
 }
 
-.style-conditions {
+.style-conditions,
+.style-conditions-pol {
   font-family: 'Comfortaa', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -625,6 +626,10 @@ a {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FD4B6F;
+}
+
+.style-conditions {
+  margin-right: 50px;
 }
 
 
@@ -654,6 +659,10 @@ footer {
   align-items: center;
   margin-bottom: 80px;
   justify-content: space-between;
+}
+
+.footer-icon {
+  margin-right: 25px;
 }
 
 .funtome-text {

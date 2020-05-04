@@ -1,0 +1,35 @@
+[data-type=desc],
+[data-type=desc_tablet] {
+    display: block !important;
+}
+
+[data-type=tablet],
+[data-type=mobile] {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+
+    [data-type=tablet],
+    [data-type=desc_tablet]
+    {
+        display: block !important;
+    }
+
+    [data-type=desc],
+    [data-type=mobile] {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    [data-type=mobile] {
+        display: block !important;
+    }
+
+    [data-type=desc],
+    [data-type=tablet],
+    [data-type=desc_tablet] {
+        display: none !important;
+    }
+}
