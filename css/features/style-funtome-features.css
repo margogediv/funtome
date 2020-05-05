@@ -2,7 +2,7 @@
 
 .features {
     background: url('/img/funtome-features/banner/banner-features-desc.jpg  ') center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .features-container {

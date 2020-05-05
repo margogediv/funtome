@@ -16,7 +16,8 @@
     <link rel="stylesheet" href="/js/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home/style.css">
+    <link rel="stylesheet" href="css/home/media-style.css">
     <link rel="stylesheet" href="css/media.css">
 
 </head>
@@ -164,7 +165,13 @@
             </div> <!-- End Slider -->
 
             <section class="video">
-                <img src="img/funtome-home/video_photo.jpg" alt="">
+                <div class="video-box">
+                    <video id="video" width="100%" height="886" poster="/img/funtome-home/promo.jpg">
+                        <source src="/img/funtome-home/promo.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                        <a href="/video/ru/promo.mp4">Download</a>.
+                    </video>
+                    <button id="play" type="button">Play</button>
+                </div>
             </section>
 
             <div class="container-center">
@@ -207,9 +214,7 @@
                 <div class="detalis-text">
                     <div class="text">Подробнее в разделе</div>
                     <span class="arrow-next"></span>
-                    <a href="#" class="butt butt-green">
-                        <span class="butt-text">Особенности</span>
-                    </a>
+                    <a href="/features" class="butt butt-outlined">Особенности</a>
                 </div>
 
                 <div class="conditiuns">
@@ -231,7 +236,7 @@
                     <div class="funtome-text">Funtome Messenger</div>
                     <span class="arrow-next mr68"></span>
                     <div class="butt-mobile">
-                        <a href="#" class="butt-instal butt-green-border mr30">
+                        <a href="#" class="butt-instal butt-green-border">
                             <img src="img/butt/butt_app.png" alt="">
                         </a>
                         <a href="#" class="butt-instal butt-green-border">
@@ -285,6 +290,24 @@
                 'autoplayHoverPause': true,
                 'nav': true,
             });
+        });
+
+        play.addEventListener('click', function () {
+            if (video.paused || video.ended) {
+            video.play();
+            video.setAttribute('controls', 'controls');
+            play.style.display = 'none';
+            }
+        });
+        video.addEventListener('click', function () {
+            if (!(this.paused || this.ended)) {
+            this.pause();
+            video.removeAttribute('controls');
+            play.style.display = 'block';
+            } else {
+            video.play();
+            play.style.display = 'none';
+            }
         });
     </script>
 
