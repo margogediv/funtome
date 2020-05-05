@@ -7,10 +7,28 @@
 
 @media screen and (max-width: 1280px) {
 
+    .home {
+        background: url('/img/funtome-home/banner/header-photo_tabl.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
     /* Media style index */
     
     .intro {
         height: 117.1875vw;
+    }
+
+    .intro-container {
+        margin-top: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .intro-content {
+        width: 100%;
+        margin-top: 34px;
+        margin-right: 0;
     }
 
     .burger {
@@ -50,7 +68,6 @@
     }
 
     .contetnt-subtitle {
-        margin-bottom: 47px;
        justify-content: center;
     }
 
@@ -61,12 +78,84 @@
     }
 
     .content-text {
+        width: 70%;
         font-size: 18px;
     }
 
     .title {
         font-size: 40px;
     }
+
+    .content-title {
+        margin-bottom: 20px;
+    }
+
+    .text-subtitle {
+        font-size: 20px;
+        margin-right: 0;
+    }
+
+    .intro-photo {
+        display: none;
+    }
+    
+    #video {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .video {
+        margin-top: 80px;
+    }
+
+    .info-funtome {
+        position: static;
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .detalis-text {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+    }
+
+    /* Slider */
+
+    .form-style {
+        width: 100%;
+    }
+
+    .photo-style {
+        width: 100px;
+    }
+
+
+    .title-instal {
+        margin-bottom: 90px;
+        align-items: center;
+    }
+
+    .title-info {
+        font-size: 40px;
+    }
+
+    .text-instal {
+        font-size: 20px;
+    }
+
+    .text-first {
+        font-size: 17px;
+    }
+
+    .text-info {
+        font-size: 18px;
+    }
+
 
     /* Footer */
 
@@ -85,7 +174,7 @@
         font-size: 40px;
     }
 
-    .arrow-next {
+    .footer-funtome .arrow-next {
         display: none;
     }
 
@@ -100,7 +189,19 @@
 
 }
 
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
+
+    .home {
+        background: url('/img/funtome-home/banner/header-photo_mobile.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+      }
 
     /* Media style index */
 
@@ -149,8 +250,88 @@
         text-align: center;
     }
 
+    .title-instal {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 70px;
+    }
+
+    .text-instal {
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .header-instal {
+        align-items: flex-end;
+    }
+
+    .arrow-next::before {
+        margin-left: 0;
+    }
+
+    .title-info {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .text-info {
+        font-size: 15px;
+    }
+
+    .info-funtome {
+        width: 100%;
+    }
+
     .content-text {
         display: none;
+    }
+
+    /* Slider */
+
+    .slider {
+        margin-top: 30px;
+    }
+
+    .form-slider {
+        width: 100%;
+        transform: none;
+    }
+
+    .owl-carousel.owl-theme-1 .owl-nav button.owl-prev::before {
+        width: 20px;
+        background-image: url('/img/icon/prev_slider_tabl.svg');
+    }
+      
+      .owl-carousel.owl-theme-1 .owl-nav button.owl-next::before {
+          width: 20px;
+        background-image: url('/img/icon/next_slider_tabl.svg');
+    }
+
+    .owl-carousel.owl-theme-1 .owl-dots {
+        margin-top: 0;
+        bottom: 0;
+        transform: translate(50% 50%);
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .video {
+        margin-top: 106px;
+        margin-bottom: 20px;
+    }
+
+    .detalis-text {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .text {
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 15px;
     }
 
     .conditiuns {
@@ -203,6 +384,17 @@
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 359px) {
     
     .h1-ru {
@@ -215,7 +407,7 @@
         flex-direction: column;
     }
 
-    .butt-green-border {
+    .footer-funtome .butt-green-border {
         margin-bottom: 15px;
     }
 
