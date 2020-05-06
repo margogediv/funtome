@@ -1,7 +1,9 @@
 /* Intro style */
 
 .features {
-    background: url('/img/funtome-features/banner/banner-features-desc.jpg  ') center no-repeat;
+    background-image: url('/img/funtome-features/banner/banner-features-desc.jpg  ');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 

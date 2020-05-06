@@ -11,8 +11,6 @@
 
     .features {
         background-image: url('/img/funtome-features/banner/banner-features-tabl.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     .features-container {
@@ -84,8 +82,6 @@
 
     .features {
         background-image: url('/img/funtome-features/banner/banner-features-mobl.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     .features-container {
