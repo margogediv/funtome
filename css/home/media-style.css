@@ -8,7 +8,7 @@
 @media screen and (max-width: 1280px) {
 
     .intro-container .box-intro {
-        margin-left: 36vw;
+        margin-left: 31.51041vw;
         display: block;
         justify-content: center;
         align-items: center;
@@ -18,10 +18,36 @@
         background-image: url('/img/funtome-home/banner/header-photo_tabl.jpg');
     }
 
+
     /* Media style index */
     
     .intro {
         height: 117.1875vw;
+    }
+
+    .intro .icon-social {
+        padding: 20px 15px;
+        background: rgba(255, 255, 255, 0.85);
+    }
+
+    .icon-vk::before {
+        width: 27px;
+        height: 16px;
+    }
+      
+    .icon-fb::before {
+        width: 15px;
+        height: 28px;
+    }
+      
+    .icon-instagram::before {
+        width: 27px;
+        height: 27px;
+    }
+      
+    .icon-youtube::before {
+        width: 27px;
+        height: 21px;
     }
 
     .intro-container {
@@ -56,6 +82,17 @@
         line-height: 21px;
     }
 
+    /* Butt */
+
+    .box-intro .butt-instal {
+        padding: 8px 16px;
+    }
+
+    .butt-apple,
+    .butt-google {
+        height: 55px;
+    }
+
     .instal-apple {
         width: 26px;
         height: 33px;
@@ -65,15 +102,44 @@
     .instal-google {
         width: 26px;
         height: 29px;
-    }    
+    }
+
+    .instal-img-app {
+        width: 129px;
+        /* height: 38px; */
+    }
+      
+    .instal-img-google {
+        width: 147px;
+        /* height: 36px; */
+    }
+
+    .butt-instal {
+        padding: 8px 15px;
+    }
+    
+    .intro-container .butt-mobile > :first-child {
+        margin-right: 25px;
+    }
 
     .h1-ru {
         font-size: 70px;
         text-align: center;
+        -webkit-text-stroke: 2px white;
+        margin-bottom: 40px;
+    }
+
+    .h1-ru-white {
+        width: 100%;
+        font-size: 50px;
+        top: 39px;
+        left: 0;
+        -webkit-text-stroke: 0.376016px rgba(0, 0, 0, 0.4);
     }
 
     .contetnt-subtitle {
        justify-content: center;
+       margin-bottom: 190px;
     }
 
     .text-red {
@@ -117,12 +183,17 @@
 
     .video {
         margin-top: 80px;
+        margin-bottom: 24px;
     }
 
     .info-funtome {
         position: static;
         width: 100%;
         margin: 0 0 20px 0;
+    }
+    
+    .info-photo-size {
+        max-width: 100% !important;
     }
 
     .text {
@@ -132,7 +203,7 @@
     .detalis-text {
         justify-content: center;
         align-items: center;
-        margin-bottom: 150px;
+        margin-bottom: 120px;
     }
 
     /* Slider */
@@ -146,6 +217,7 @@
     }
 
     .title-instal {
+        margin-top: 24px;
         margin-bottom: 90px;
         align-items: center;
     }
@@ -170,7 +242,6 @@
     /* Footer */
 
     .footer-funtome {
-        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -209,6 +280,13 @@
 
     .intro-container .box-intro {
         margin-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 25px;
+        left: 0;
     }
 
     .home {
@@ -218,7 +296,7 @@
     /* Media style index */
 
     .intro {
-        height: 200vw;
+        height: 720px;
     }
 
     .logo {
@@ -243,6 +321,10 @@
         width: 21px;
         height: 23px;
     }
+
+    .intro-container .butt-mobile > :first-child {
+        margin-right: 20px;
+    }
     
     .burger__item {
         width: 26px;
@@ -253,8 +335,19 @@
 
     .h1-ru {
         font-size: 40px;
-        text-align: center;
-        -webkit-text-stroke: 1px white;
+        -webkit-text-stroke: 1.25px white;
+        margin-bottom: 26px;
+    }
+
+    .h1-ru-white {
+        font-size: 28px;
+        top: 24px;
+        left: 0;
+        -webkit-text-stroke: 0.251997px rgba(0, 0, 0, 0.4);
+    }
+
+    .text-subtitle {
+        font-size: 15px;
     }
 
     .text-red {
@@ -262,10 +355,17 @@
         text-align: center;
     }
 
+    /* Butt mobile */
+    
+    .box-intro .butt-instal {
+        padding: 9px 11px 6px 11px;
+    }
+
     .title-instal {
         flex-wrap: wrap;
         justify-content: flex-start;
         margin-bottom: 70px;
+        margin-top: 20px;
     }
 
     .text-instal {
@@ -328,6 +428,11 @@
     .owl-carousel.owl-theme-1 .owl-dots {
         margin-top: 0;
         bottom: 0;
+        margin-bottom: -20px;
+    }
+
+    .owl-carousel.owl-theme-1 .owl-item img {
+        width: 100px;
     }
 
     .video {
@@ -416,14 +521,27 @@
 
 
     .intro-container .butt-mobile :first-child {
-        margin-right: 0px;
-        margin-bottom: 15px;
+        margin-right: 0px;  
     }
     
     .h1-ru {
         font-size: 30px;
-        text-align: center;
         -webkit-text-stroke: 1px white;
+    }
+
+    .h1-ru-white {
+        font-size: 22px;
+        top: 16px;
+        left: 0;
+        -webkit-text-stroke: 0.251997px rgba(0, 0, 0, 0.4);
+    }
+
+    .text-subtitle {
+        font-size: 10px;
+    }
+
+    .intro-container .butt-mobile > :first-child {
+        margin-bottom: 15px;
     }
 
     .funtome-text {
@@ -468,6 +586,7 @@
 
     .butt-mobile {
         flex-direction: column;
+        width: fit-content;
     }
 
 }    

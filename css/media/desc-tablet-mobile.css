@@ -8,7 +8,7 @@
     display: none !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
 
     [data-type=tablet],
     [data-type=desc_tablet]
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 767px) {
     [data-type=mobile] {
         display: block !important;
     }

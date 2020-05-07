@@ -499,6 +499,7 @@ a {
 .butt-outlined {
   font-family: "Comfortaa", sans-serif;
   font-style: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 18px;
   display: flex;
@@ -539,6 +540,16 @@ a {
   margin-right: 30px;
 }
 
+.instal-img-app {
+  width: 164px;
+  height: 48px;
+}
+
+.instal-img-google {
+  width: 187px;
+  height: 46px;
+}
+
 
 /* Icon-fixet */
 .icon-social {
@@ -570,40 +581,51 @@ a {
 }
 
 .icon-vk::before {
-  background: url("/img/icon/vk.svg");
+  background-image: url("/img/icon/vk.svg");
   width: 29px;
   height: 19px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .icon-fb::before {
-  background: url("/img/icon/fb.svg");
+  background-image: url("/img/icon/fb.svg");
   width: 18px;
   height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .icon-instagram::before {
-  background: url("/img/icon/instagram.svg");
+  background-image: url("/img/icon/instagram.svg");
   width: 27px;
   height: 27px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .icon-youtube::before {
-  background: url("/img/icon/youtube.svg");
+  background-image: url("/img/icon/youtube.svg");
   width: 29px;
   height: 22px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 
 #video {
   width: 100%;
-  margin-top: 60px;
-  margin-bottom: 30px;
 }
 
 .title-instal {
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
+  margin-top: 30px;
 }
 
 .text-instal {
