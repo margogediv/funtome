@@ -21,6 +21,27 @@
         margin-bottom: 24px;
     }
 
+    .features-banner-title .contetnt-subtitle{
+        margin-bottom: 47px;
+    }
+
+    .features-banner-title .content-text {
+        width: 351px;
+        margin-bottom: 0;
+    }
+
+    .desc {
+        display: none;
+    }
+
+    .tabl {
+        display: block;
+    }
+
+    .h1-ru {
+        margin-bottom: 24px;
+    }
+
     /* Content block */
 
     .features-title {
@@ -48,6 +69,7 @@
     .features-photo {
         width: 100%;
         height: auto;
+        margin-bottom: 15px;
     }
 
     .container-img-left {
@@ -57,7 +79,6 @@
 
     .features-content {
         width: 100%;
-        margin-top: 20px;
     }
 
     .container-img-right {
@@ -66,12 +87,16 @@
     }
 
     .number {
-        width: 243px;
-        height: 173px;
+        width: 212px;
+        
     }
 
     .title {
         font-size: 40px;
+    }
+
+    .butt-text-green {
+        font-weight: bold;
     }
 
 }
@@ -79,6 +104,11 @@
 @media screen and (max-width: 767px) {
 
     /* Media header + intro */
+
+    .features-group .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
     .features {
         background-image: url('/img/funtome-features/banner/banner-features-mobl.jpg');
@@ -89,6 +119,10 @@
     }
 
     .content-title-features {
+        margin-bottom: 14px;
+    }
+
+    .h1-ru {
         margin-bottom: 14px;
     }
 
@@ -103,8 +137,7 @@
     }
 
     .number {
-        width: 182px;
-        height: 123px;
+        width: 147px;
     }
 
     .features-iteam {
@@ -113,12 +146,17 @@
     }
 
     .title {
-        font-size: 30px;
+        font-size: 29px;
     }
 
 
 }
 
 @media screen and (max-width: 359px) {
+
+    .app {
+        position: relative;
+        min-width: 320px;
+    }
     
 }

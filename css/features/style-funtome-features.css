@@ -38,12 +38,14 @@
 }
 
 .container-img-left {
+    max-width: 680px;
     position: absolute;
     left: -71px;
     top: -75px;
 }
 
 .container-img-right {
+    max-width: 680px;
     position: absolute;
     right: -66px;
     top: -102px;

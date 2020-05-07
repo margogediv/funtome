@@ -244,6 +244,7 @@
     .footer-funtome {
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 50px;
     }
 
     .footer-icon {
@@ -518,6 +519,11 @@
 
 
 @media screen and (max-width: 359px) {
+
+    .app {
+        position: relative;
+        min-width: 320px;
+    }
 
 
     .intro-container .butt-mobile :first-child {
