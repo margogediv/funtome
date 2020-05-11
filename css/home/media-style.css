@@ -126,7 +126,6 @@
         font-size: 70px;
         text-align: center;
         -webkit-text-stroke: 2px white;
-        margin-bottom: 40px;
     }
 
     .h1-ru-white {
@@ -145,7 +144,6 @@
     .text-red {
         font-size: 20px;
         text-align: center;
-        color: #FD4B6F;
     }
 
     .content-text {
@@ -158,7 +156,7 @@
     }
 
     .content-title {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .text-subtitle {

@@ -16,8 +16,16 @@
     <link rel="stylesheet" href="/js/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style-funtome-blog.css">
+    <!-- Style CSS media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Style CSS + media home -->
+    <link rel="stylesheet" href="css/home/style.css">
+    <link rel="stylesheet" href="css/home/media-style.css">
+
+    <!-- Style CSS + media blog -->
+    <link rel="stylesheet" href="css/blog/style-funtome-blog.css">
+    <link rel="stylesheet" href="css/blog/media-style-funtome-blog.css">
 
 </head>
 
@@ -59,8 +67,13 @@
                     </div>
 
                     <div class="header-instal">
-                        <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt="" /></a>
-                        <a href="#"><img class="instal-google" src="img/icon/google_icon.svg" alt="" /></a>
+                        <div class="instal-but">
+                            <a href="#"><img class="instal-apple" src="img/icon/apple_icon.svg" alt="" /></a>
+                            <a href="#"><img class="instal-google" src="img/icon/google_icon.svg" alt="" /></a>
+                        </div>
+                        <button class="burger" type="button" id="navToggle">
+                            <span class="burger__item">Menu</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -70,10 +83,10 @@
         <div class="intro blog">
 
             <div class="container">
-                <div class="features-container">
+                <div class="blog-container">
 
-                    <div class="features-banner-title">
-                        <div class="content-title-features">
+                    <div class="blog-banner-title">
+                        <div class="content-title-blog">
                             <h1 class="h1-ru">Блог</h1>
                         </div>
                         <div class="contetnt-subtitle">
@@ -88,19 +101,12 @@
             </div>
 
             <div class="icon-social">
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/inst.png" alt="">
-                </a>
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/facebook.png" alt="">
-                </a>
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/vk.png" alt="">
-                </a>
-                <a href="#">
-                    <img src="img/icon/youtube.png" alt="">
-                </a>
+                <a target="_blank" href="https://www.instagram.com/funtome.official/" class="icon-fixet icon-instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/funtome.official/" class="icon-fixet icon-fb"></a>
+                <a target="_blank" href="https://vk.com/funtomemessenger/" class="icon-fixet icon-vk"></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCTxlUsq7KB_CHMGjxvY1Qqg/" class="icon-fixet icon-youtube"></a>
             </div>
+
         </div>
 
         <!-- Content block -->
@@ -147,7 +153,7 @@
                             </div>
                             <div class="news-like-data">
                                 <div class="like">
-                                    <div class="collum-first mr30">
+                                    <div class="collum-first">
                                         <img class="view" src="img/funtome-blog/view.png" alt="">
                                         <h4 class="quantity">1266</h4>
                                     </div>
@@ -391,55 +397,51 @@
 
         </div> <!-- content-block end -->
 
-    </div> <!-- end App -->
+    
 
-    <footer>
-        <div class="footer">
-            <div class="container footer-container">
+        <footer>
+            <div class="footer">
+                <div class="container footer-container">
 
-                <div class="footer-funtome">
-                    <div class="footer-icon">
-                        <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
+                    <div class="footer-funtome">
+                        <div class="footer-icon">
+                            <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
+                        </div>
+                        <div class="funtome-text">Funtome Messenger</div>
+                        <span class="arrow-next mr34"></span>
+
+                        <div class="butt-mobile">
+                            <a href="#" class="butt-apple butt-instal butt-green-border">
+                                <img class="instal-img-app" src="img/butt/butt_app.svg" alt="">
+                            </a>
+                            <a href="#" class="butt-google butt-instal butt-green-border">
+                                <img class="instal-img-google" src="img/butt/butt_google.svg" alt="">
+                            </a>
+                        </div>
+
                     </div>
-                    <div class="funtome-text">Funtome Messenger</div>
-                    <span class="arrow-next mr68"></span>
-                    <div class="butt-mobile">
-                        <a href="#" class="butt-instal butt-green-border mr30">
-                            <img src="img/butt/butt_app.png" alt="">
-                        </a>
-                        <a href="#" class="butt-instal butt-green-border">
-                            <img src="img/butt/butt_google.png" alt="">
-                        </a>
+
+                    <div class="footer-contact">
+                        <div class="copyright">2018-2019 UAB"FlowTech Pro"</div>
+                        <div class="address">Лауру 36F, Вильнюс, Литва</div>
+                        <div class="footer-contacts">
+                            <a href="info@funtome.com" class="mail">info@funtome.com</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="footer-contact">
-                    <div class="copyright">2018-2019 UAB"FlowTech Pro"</div>
-                    <div class="address">Лауру 36F, Вильнюс, Литва</div>
-                    <div class="footer-contacts">
-                        <a href="info@funtome.com" class="mail">info@funtome.com</a>
+                    <div class="icon-social-footer">
+                        <a target="_blank" href="https://www.instagram.com/funtome.official/" class="icon-footer icon-instagram"></a>
+                        <a target="_blank" href="https://www.facebook.com/funtome.official/" class="icon-footer icon-fb"></a>
+                        <a target="_blank" href="https://vk.com/funtomemessenger/" class="icon-footer icon-vk"></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCTxlUsq7KB_CHMGjxvY1Qqg/" class="icon-footer icon-youtube"></a>
                     </div>
+
                 </div>
+            </div> <!-- end footer -->
 
-                <div class="icon-social-footer">
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/inst.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/facebook.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/vk.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer">
-                        <img src="img/icon/youtube.png" alt="">
-                    </a>
-                </div>
+        </footer>
 
-            </div>
-        </div> <!-- end footer -->
-
-    </footer>
+    </div> <!-- end App -->    
 
 
     <script src="/js/jquery.min.js"></script>
@@ -449,13 +451,23 @@
     <script>
         $(document).ready(function () {
             $("#slider-2").owlCarousel({
-                'items': 3,
+                /* 'items': 3, */
                 'slideBy': 3,
                 'loop': true,
                 'margin': 29,
                 'autoplayHoverPause': true,
                 'nav': true,
-            });
+
+                'responsive':{ //Адаптация в зависимости от разрешения экрана
+                    0:{
+                        items:1
+                    },
+                    1281:{
+                        items:3
+                    }
+                }
+
+                    });
         });
     </script>
 

@@ -1,21 +1,23 @@
 /* Intro style */
 
 .blog {
-    background: url('/img/funtome-blog/blog-photo-desc.jpg') center no-repeat;
+    background-image: url('/img/funtome-blog/blog-photo-desc.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.features-container {
+.blog-container {
     width: 100%;
     margin-top: 194px;
 }
 
-.features-banner-title {
+.blog-banner-title {
     width: 100%;
 }
 
-.content-title-features {
-    margin-bottom: 50px;
+.content-title-blog {
+    margin-bottom: 63px;
 }
 
 /* Blog Menu */
@@ -25,7 +27,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin: 30px 0 139px;
+    margin-top: 30px;
+    margin-bottom: 139px;
     justify-content: center;
 }
 
@@ -97,11 +100,19 @@
     justify-content: space-between;
 }
 
+.news-section:nth-child(1) {
+    margin: 0;
+}
+
+.news-section:nth-child(2) {
+    margin: 0;
+}
+
 .news-section {
     width: calc((100% - 80px) / 2);
     margin-top: 50px;
     margin-bottom: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -120,7 +131,8 @@
     font-size: 30px;
     line-height: 150%;
     color: #F02B53;
-    margin: 20px 0 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .news-subtitle {
@@ -152,7 +164,7 @@
 
 .collum-first {
     display: flex;
-
+    margin-right: 30px;
 }
 
 .view {
@@ -175,6 +187,12 @@
 
 .news-data {
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;    
+    color: #5E6973;
 }
 
 /* Section-pages */
