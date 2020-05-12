@@ -578,8 +578,8 @@ input::placeholder {
     left: 50%;
     transform: translateX(-50%);
     width: 860px;
+    height: 560px;
     max-width: 100%;
-    height: auto;
     padding: 20px 30px;
     box-shadow: 0px 0px 4px #DCDCDC;
     border-radius: 18px;
@@ -643,6 +643,10 @@ input::placeholder {
 }
 
 .form-flex {
+    margin-bottom: 40px;
+}
+
+.form-flex2 {
     margin-bottom: 20px;
 }
 
@@ -731,7 +735,7 @@ input[type=checkbox]:checked + label:before {
     align-items: center;
 }
 
-.block-text a {
+.block-text span {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -752,3 +756,10 @@ input[type=checkbox]:checked + label:before {
     display: none;
 }
 
+.open-class3 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}

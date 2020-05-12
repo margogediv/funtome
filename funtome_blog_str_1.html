@@ -321,15 +321,15 @@
                         </div>
                     </div>
 
-                    <!-- User form -->
+                    <!-- User form input -->
                     <form id="form" action="#" method="GET" class="form modal">
                         <div class="form-registration-title">
-                            <p class="title">Регистрация</p>
+                            <p class="title">Вход</p>
                             <div class="block">
                                 <p class="block-text">Через социальные сети</p>
                                 <div class="news-social">
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/google.svg" alt=""></a>
                                     <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/inst.svg" alt=""></a>
-                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/twit.svg" alt=""></a>
                                     <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/face.svg" alt=""></a>
                                     <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/vk.svg" alt=""></a>
                                     <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/odnok.svg" alt=""></a>
@@ -338,6 +338,42 @@
                             <p class="block-text">или через E-mail</p>
                         </div>    
                         <div class="form-flex">
+                            <div class="form-first-block mb20">
+                                <div class="form-flex__mail">
+                                    <input class="form-iteam" type="email" name="mail" placeholder="E-mail *" >
+                                </div>
+                                <div class="form-flex__password">
+                                    <input class="form-iteam" type="password" name="userpass" placeholder="Пароль">
+                                    <button class="butt-form" type="submit"></button>
+                                </div>
+                            </div>
+                            <div class="button-mess center">
+                                <a href="#" class="butt-border-message">
+                                    <span class="butt-border-message-style">Войти</span>
+                                </a>                                      
+                            </div>   
+                        </div>      
+                        <p class="block-text open-class3" style="cursor: pointer;">Забыли пароль?</p>
+                        <p class="block-text open-class2"><span style="cursor: pointer;">Зарегистрироваться</span></p>
+                    </form>
+
+                    <!-- User form registration -->
+                    <form id="form2" action="#" method="GET" class="form modal">
+                        <div class="form-registration-title">
+                            <p class="title">Регистрация</p>
+                            <div class="block">
+                                <p class="block-text">Через социальные сети</p>
+                                <div class="news-social">
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/google.svg" alt=""></a>
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/inst.svg" alt=""></a>
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/face.svg" alt=""></a>
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/vk.svg" alt=""></a>
+                                    <a href="#"><img class="news-social-syle" src="img/funtome-blog/icon-social/odnok.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <p class="block-text">или через E-mail</p>
+                        </div>    
+                        <div class="form-flex2">
                             <div class="form-first-block">
                                 <div class="form-flex__mail">
                                     <input class="form-iteam" type="email" name="mail" placeholder="E-mail *" >
@@ -357,11 +393,40 @@
                             </div>
                             <div class="button-mess center">
                                 <a href="#" class="butt-border-message">
-                                    <span class="butt-border-message-style">Зарегистрироваться</span>
+                                    <span class="butt-border-message-style" >Зарегистрироваться</span>
                                 </a>                                      
                             </div>   
                         </div>      
-                        <p class="block-text">Уже зарегистрировались? <a href="#">Войти</a></p>
+                        <p class="block-text">Уже зарегистрировались? <span class="open-class" style="cursor: pointer;">Войти</span></p>
+
+                    </form>
+
+                    <!-- User form password -->
+                    <form id="form3" action="#" method="GET" class="form modal">
+                        <div class="form-registration-title">
+                            <p class="title mb20">Восстановление пароля</p>
+                            <p class="block-text">Для восстановления доступа укажите Ваш e-mail</p>
+                        </div>    
+                        <div class="form-flex">
+                            <div class="form-first-block mb20">
+                                <div class="form-flex__mail">
+                                    <input class="form-iteam" type="email" name="mail" placeholder="E-mail *" >
+                                </div>
+                            </div>
+                            <div class="button-mess center">
+                                <a href="#" class="butt-border-message">
+                                    <span class="butt-border-message-style open-class4" >Далее</span>
+                                </a>                                      
+                            </div>   
+                        </div>      
+                    </form>
+
+                     <!-- User form mail -->
+                     <form id="form4" action="#" method="GET" class="form modal">
+                        <div class="form-registration-title">
+                            <p class="title mb20">Проверьте почту</p>
+                            <p class="block-text">На <span>alalalallalla@gmail.com</span> отправлено письмо<br> с инструкцией по восстановлению пароля.</p>
+                        </div>      
                     </form>
                     <div id="form_bg" class="form_bg" style=""></div>
 
@@ -604,12 +669,57 @@
 
     <script>
         $(document).ready(function (){
-            $('.open-class2').click(function(){
+            $('.open-class').click(function(){
                 $('#form').fadeIn();
                 $('.form_bg').fadeIn();
 
                 $('.form_bg').click(function(){
                     $('#form').fadeOut();
+                    $('.form_bg').fadeOut();
+
+                }); 
+            });
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function (){
+            $('.open-class2').click(function(){
+                $('#form2').fadeIn();
+                $('.form_bg').fadeIn();
+
+                $('.form_bg').click(function(){
+                    $('#form2').fadeOut();
+                    $('.form_bg').fadeOut();
+
+                }); 
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function (){
+            $('.open-class3').click(function(){
+                $('#form3').fadeIn();
+                $('.form_bg').fadeIn();
+
+                $('.form_bg').click(function(){
+                    $('#form3').fadeOut();
+                    $('.form_bg').fadeOut();
+
+                }); 
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function (){
+            $('.open-class4').click(function(){
+                $('#form4').fadeIn();
+                $('.form_bg').fadeIn();
+
+                $('.form_bg').click(function(){
+                    $('#form4').fadeOut();
                     $('.form_bg').fadeOut();
 
                 }); 
