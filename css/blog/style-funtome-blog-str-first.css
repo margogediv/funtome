@@ -419,16 +419,17 @@ input::placeholder {
     font-size: 16px;
     line-height: 19px;
     color: #888888;
-
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
 }
 
-.block-replay {
-    display: none;
-}
-
-.box {
+.box-flex {
     display: flex;
-    margin-top: 20px;
+}
+
+.form-replay {
+    display: none;
 }
 
 .replay-comments {
@@ -760,7 +761,7 @@ input[type=checkbox]:checked + label:before {
     display: none;
 }
 
-.open-class3 {
+.mb10 {
     margin-bottom: 10px;
 }
 
