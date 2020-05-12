@@ -423,6 +423,10 @@ input::placeholder {
 }
 
 .block-replay {
+    display: none;
+}
+
+.box {
     display: flex;
     margin-top: 20px;
 }

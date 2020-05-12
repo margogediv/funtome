@@ -310,10 +310,10 @@
                                 <div class="comments-text">Оставьте комментарий</div>
                                 <div class="sing-in-text">
                                     Чтобы оставить комментарий, необходимо 
-                                    <span class="sing-in-text text-green open-class" style="cursor: pointer;"> 
+                                    <span class="sing-in-text text-green open-class" data-form='1' style="cursor: pointer;"> 
                                         войти
                                     </span> или 
-                                    <span class="sing-in-text text-green open-class2" style="cursor: pointer;" >
+                                    <span class="sing-in-text text-green open-class" data-form='2' style="cursor: pointer;" >
                                         зарегистрироваться
                                     </span>
                                 </div>
@@ -322,7 +322,7 @@
                     </div>
 
                     <!-- User form input -->
-                    <form id="form" action="#" method="GET" class="form modal">
+                    <form id="form1" action="#" method="GET" class="form modal">
                         <div class="form-registration-title">
                             <p class="title">Вход</p>
                             <div class="block">
@@ -353,8 +353,8 @@
                                 </a>                                      
                             </div>   
                         </div>      
-                        <p class="block-text open-class3" style="cursor: pointer;">Забыли пароль?</p>
-                        <p class="block-text open-class2"><span style="cursor: pointer;">Зарегистрироваться</span></p>
+                        <p class="block-text open-class" style="cursor: pointer;" data-form='3'>Забыли пароль?</p>
+                        <p class="block-text"><span class="open-class" style="cursor: pointer;" data-form='2'>Зарегистрироваться</span></p>
                     </form>
 
                     <!-- User form registration -->
@@ -393,11 +393,11 @@
                             </div>
                             <div class="button-mess center">
                                 <a href="#" class="butt-border-message">
-                                    <span class="butt-border-message-style" >Зарегистрироваться</span>
+                                    <span class="butt-border-message-style">Зарегистрироваться</span>
                                 </a>                                      
                             </div>   
                         </div>      
-                        <p class="block-text">Уже зарегистрировались? <span class="open-class" style="cursor: pointer;">Войти</span></p>
+                        <p class="block-text">Уже зарегистрировались? <span class="open-class" data-form='1' style="cursor: pointer;">Войти</span></p>
 
                     </form>
 
@@ -414,8 +414,8 @@
                                 </div>
                             </div>
                             <div class="button-mess center">
-                                <a href="#" class="butt-border-message">
-                                    <span class="butt-border-message-style open-class4" >Далее</span>
+                                <a href="#" class="butt-border-message open-class" data-form='4'>
+                                    <span class="butt-border-message-style">Далее</span>
                                 </a>                                      
                             </div>   
                         </div>      
@@ -448,7 +448,7 @@
                                     </div>
                                     <div class="button-mess">
                                         <a href="#" class="butt-border-message">
-                                            <span class="butt-border-message-style">Отправить</span>
+                                            <span class="butt-border-message-style" data-form='4'>Отправить</span>
                                         </a>                                      
                                     </div> 
                                 </div>      
@@ -521,30 +521,32 @@
                                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                                 </div>
                                 <div class="user-replay">
-                                    <span>Replay</span>
+                                    <span class="toggle" style="cursor: pointer;">Replay</span>
                                 </div>
                                 <div class="block-replay">
-                                    <div class="user-photo-replay mr20">
-                                        <svg width="70" height="70">
-                                            <pattern id="pattern-6" width="100%" height="100%">
-                                            <image href="img/funtome-blog/user-photo/user-replay.png" width="70" height="70" preserveAspectRatio="xMidYMin slice"></image>
-                                            </pattern>
-                                            <circle cx="35" cy="35" r="35" fill="url(#pattern-6)"></circle>
-                                        </svg>
-                                    </div>
-                                    <div class="replay-comments-block">
-                                        <div class="replay-comments">
-                                            <textarea name="message" cols="30" rows='10' class="replay-form" placeholder="Replay"></textarea>
+                                    <div class="box">
+                                        <div class="user-photo-replay mr20">
+                                            <svg width="70" height="70">
+                                                <pattern id="pattern-6" width="100%" height="100%">
+                                                <image href="img/funtome-blog/user-photo/user-replay.png" width="70" height="70" preserveAspectRatio="xMidYMin slice"></image>
+                                                </pattern>
+                                                <circle cx="35" cy="35" r="35" fill="url(#pattern-6)"></circle>
+                                            </svg>
                                         </div>
-                                        <div class="replay-button">
-                                            <a href="#" class="butt-border mr20">
-                                                <span class="butt-border-text">Cancel</span>
-                                            </a>
-                                            <a href="#" class="butt-border">
-                                                <span class="butt-border-text">Post</span>
-                                            </a>                                        
-                                        </div>   
-                                    </div>
+                                        <div class="replay-comments-block">
+                                            <div class="replay-comments">
+                                                <textarea name="message" cols="30" rows='10' class="replay-form" placeholder="Replay"></textarea>
+                                            </div>
+                                            <div class="replay-button">
+                                                <a href="#" class="butt-border mr20">
+                                                    <span class="butt-border-text">Cancel</span>
+                                                </a>
+                                                <a href="#" class="butt-border">
+                                                    <span class="butt-border-text">Post</span>
+                                                </a>                                        
+                                            </div>   
+                                        </div>
+                                    </div>    
                                 </div>    
                             </div>    
                         </div> <!-- user-comments end -->
@@ -667,65 +669,34 @@
         });
     </script>
 
+
     <script>
         $(document).ready(function (){
+
             $('.open-class').click(function(){
-                $('#form').fadeIn();
+                let form_id = $(this).attr('data-form');
+                $('#form' + form_id).fadeIn();
                 $('.form_bg').fadeIn();
+            
 
                 $('.form_bg').click(function(){
-                    $('#form').fadeOut();
+                    $('#form' + form_id).fadeOut();
                     $('.form_bg').fadeOut();
 
-                }); 
-            });
+                });    
+            }); 
         });
     </script>
-    
-    <script>
-        $(document).ready(function (){
-            $('.open-class2').click(function(){
-                $('#form2').fadeIn();
-                $('.form_bg').fadeIn();
 
-                $('.form_bg').click(function(){
-                    $('#form2').fadeOut();
-                    $('.form_bg').fadeOut();
 
-                }); 
+    <script> 
+        $(document ).ready(function(){
+            $( ".toggle" ).click(function(){ 
+                $( ".block-replay" ).slideToggle(); 
             });
         });
     </script>
 
-    <script>
-        $(document).ready(function (){
-            $('.open-class3').click(function(){
-                $('#form3').fadeIn();
-                $('.form_bg').fadeIn();
-
-                $('.form_bg').click(function(){
-                    $('#form3').fadeOut();
-                    $('.form_bg').fadeOut();
-
-                }); 
-            });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function (){
-            $('.open-class4').click(function(){
-                $('#form4').fadeIn();
-                $('.form_bg').fadeIn();
-
-                $('.form_bg').click(function(){
-                    $('#form4').fadeOut();
-                    $('.form_bg').fadeOut();
-
-                }); 
-            });
-        });
-    </script>
 
 </body>
 
