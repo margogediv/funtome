@@ -23,6 +23,10 @@
 .support-block {
     margin-top: 30px;
     margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .support-title-red {
@@ -52,7 +56,6 @@
     border-radius: 6px;
     background: #fff;
     cursor: pointer;
-    background: rgba(70, 91, 111, 0.08);
 }
 
 .select .select-input {
@@ -67,6 +70,7 @@
     display: flex;
     align-items: center;
     color: #333333;
+    background: rgba(70, 91, 111, 0.08);
 }
 
 .select .current {

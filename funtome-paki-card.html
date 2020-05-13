@@ -16,10 +16,22 @@
     <link rel="stylesheet" href="/js/owlCarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="/js/owlCarousel/owl.theme.default.css">
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style-funtome-paki.css">
-    <link rel="stylesheet" href="css/style-funtome-paki-card.css">
-    <!-- <link rel="stylesheet" href="css/media/media.css"> -->
+    <!-- Style CSS media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Style CSS + media home -->
+    <link rel="stylesheet" href="css/home/style.css">
+    <link rel="stylesheet" href="css/home/media-style.css">
+
+
+    <!-- Style CSS + media paki -->
+    <link rel="stylesheet" href="css/paki/style-funtome-paki.css">
+    <link rel="stylesheet" href="css/paki/media-style-funtome-paki.css">
+
+    <!-- Style CSS + media paki-card -->
+    <link rel="stylesheet" href="css/paki/style-funtome-paki-card.css">
+    <link rel="stylesheet" href="css/paki/media-style-funtome-paki-card.css">
+    
 
 </head>
 
@@ -61,8 +73,13 @@
                     </div>
 
                     <div class="header-instal">
-                        <a href="#"><img class="instal-apple" src="img/icon/apple_icon.png" alt="" /></a>
-                        <a href="#"><img class="instal-google" src="img/icon/google_icon.svg" alt="" /></a>
+                        <div class="instal-but">
+                            <a href="#"><img class="instal-apple" src="img/icon/apple_icon.svg" alt="" /></a>
+                            <a href="#"><img class="instal-google" src="img/icon/google_icon.svg" alt="" /></a>
+                        </div>
+                        <button class="burger" type="button" id="navToggle">
+                            <span class="burger__item">Menu</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -85,18 +102,10 @@
             </div>
 
             <div class="icon-social">
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/inst.png" alt="">
-                </a>
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/facebook.png" alt="">
-                </a>
-                <a href="#" class="icon-fixet">
-                    <img src="img/icon/vk.png" alt="">
-                </a>
-                <a href="#">
-                    <img src="img/icon/youtube.png" alt="">
-                </a>
+                <a target="_blank" href="https://www.instagram.com/funtome.official/" class="icon-fixet icon-instagram"></a>
+                <a target="_blank" href="https://www.facebook.com/funtome.official/" class="icon-fixet icon-fb"></a>
+                <a target="_blank" href="https://vk.com/funtomemessenger/" class="icon-fixet icon-vk"></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCTxlUsq7KB_CHMGjxvY1Qqg/" class="icon-fixet icon-youtube"></a>
             </div>
 
         </div> <!-- end Intro -->
@@ -596,57 +605,50 @@
 
             </div> <!-- container end -->
 
-        </div> <!-- container end -->
-    </div> <!-- content-block end -->
+        </div> <!-- content-block end -->
 
-    </div> <!-- end app -->
+        <footer>
+            <div class="footer">
+                <div class="container footer-container">
 
-    <footer>
-        <div class="footer">
+                    <div class="footer-funtome">
+                        <div class="footer-icon">
+                            <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
+                        </div>
+                        <div class="funtome-text">Funtome Messenger</div>
+                        <span class="arrow-next mr34"></span>
 
-            <div class="container footer-container">
-                <div class="footer-funtome">
-                    <div class="footer-icon">
-                        <img class="icon-style" src="img/icon/funtome-footer.svg" alt="">
+                        <div class="butt-mobile">
+                            <a href="#" class="butt-apple butt-instal butt-green-border">
+                                <img class="instal-img-app" src="img/butt/butt_app.svg" alt="">
+                            </a>
+                            <a href="#" class="butt-google butt-instal butt-green-border">
+                                <img class="instal-img-google" src="img/butt/butt_google.svg" alt="">
+                            </a>
+                        </div>
+
                     </div>
-                    <div class="funtome-text">Funtome Messenger</div>
-                    <span class="arrow-next mr68"></span>
-                    <div class="butt-mobile">
-                        <a href="#" class="butt-instal butt-green-border mr30">
-                            <img src="img/butt/butt_app.png" alt="">
-                        </a>
-                        <a href="#" class="butt-instal butt-green-border">
-                            <img src="img/butt/butt_google.png" alt="">
-                        </a>
+
+                    <div class="footer-contact">
+                        <div class="copyright">2018-2019 UAB"FlowTech Pro"</div>
+                        <div class="address">Лауру 36F, Вильнюс, Литва</div>
+                        <div class="footer-contacts">
+                            <a href="info@funtome.com" class="mail">info@funtome.com</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="footer-contact">
-                    <div class="copyright">2018-2019 UAB"FlowTech Pro"</div>
-                    <div class="address">Лауру 36F, Вильнюс, Литва</div>
-                    <div class="footer-contacts">
-                        <a href="info@funtome.com" class="mail">info@funtome.com</a>
+                    <div class="icon-social-footer">
+                        <a target="_blank" href="https://www.instagram.com/funtome.official/" class="icon-footer icon-instagram"></a>
+                        <a target="_blank" href="https://www.facebook.com/funtome.official/" class="icon-footer icon-fb"></a>
+                        <a target="_blank" href="https://vk.com/funtomemessenger/" class="icon-footer icon-vk"></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCTxlUsq7KB_CHMGjxvY1Qqg/" class="icon-footer icon-youtube"></a>
                     </div>
-                </div>
 
-                <div class="icon-social-footer">
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/inst.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/facebook.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer mr30">
-                        <img src="img/icon/vk.png" alt="">
-                    </a>
-                    <a href="#" class="icon-footer">
-                        <img src="img/icon/youtube.png" alt="">
-                    </a>
                 </div>
-            </div>
+            </div> <!-- end footer -->
+        </footer>
 
-        </div> <!-- end footer -->
-    </footer>
+    </div> <!-- end app -->    
 
 
     <script src="/js/jquery.min.js"></script>
@@ -665,7 +667,7 @@
         });
     </script>
 
-    <!-- <script>
+    <script>
         function selectStyle (elem, style) {
 
             let spisok = document.querySelectorAll('.butt-style-structure');
@@ -683,9 +685,9 @@
                 list.classList.remove('style-row'); 
             }
         }
-    </script> -->
+    </script>
 
-    <!-- <script>
+    <script>
         function selectStyle (elem, style) {
 
             let spisok = $('.butt-style-structure').removeClass('active');
@@ -699,9 +701,9 @@
                 list.removeClass('style-row'); 
             }
         }
-    </script> -->
+    </script>
 
-    <!-- <script>
+    <script>
         function changeButt (element) {
 
             if(element.classList.contains('turn')) {
@@ -717,7 +719,7 @@
                 parent.addClass('style-message');
             }
         }
-    </script> -->
+    </script>
 
 </body>
 
