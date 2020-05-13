@@ -12,9 +12,13 @@
     color: white;
 }
 
-
-
-
+.banner-news {
+    height: 500px;
+    background-image: url('/img/funtome-blog/banner_news.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 .news-blog-first {
@@ -53,7 +57,6 @@
     font-weight: 300;
     font-size: 50px;
     line-height: 150%;
-    text-transform: capitalize;
     color: #F02B53;
     margin-bottom: 20px;
 }
@@ -71,6 +74,15 @@
     display: flex;
     align-items: center;
     margin-right: 33px;
+}
+
+.viwe-number {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #5E6973;
 }
 
 .view {
@@ -180,9 +192,13 @@ input::placeholder {
     background-color:transparent;
 }
 
-/* .search-photo {
-    max-width: 100%;
-} */
+.box-block {
+
+}
+
+.nav-categories {
+    margin-bottom: 50px;
+}
 
 .blok-categories {
     margin: 50px 0;
@@ -203,10 +219,6 @@ input::placeholder {
 .blok-content {
     display: flex;
 }
-
-/* .blok-content-title {
-    display: block;
-} */
 
 .blok-content {
     margin-bottom: 20px;
@@ -437,6 +449,24 @@ input::placeholder {
     margin-right: 20px;
 }
 
+/* SVG */
+
+.svg-forma {
+    width: 140px;
+    height: 140px;
+}
+
+.img-content {
+    width: 140px;
+    height: 140px;
+}
+
+/* .forma-img {
+    cx: 70px;
+    cy: 70px;
+    r: 70px;
+} */ 
+
 .form-replay {
     display: none;
 }
@@ -473,7 +503,6 @@ input::placeholder {
 
 .open {
     display: flex;
-    margin-bottom: 40px;
 }
 
 .arrow-next::before {
@@ -493,6 +522,7 @@ input::placeholder {
 
 .replay-text {
     display: flex;
+    margin-top: 30px;
 }
 
 .open-replay-text {

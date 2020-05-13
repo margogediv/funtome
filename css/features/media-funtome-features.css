@@ -149,6 +149,28 @@
         font-size: 29px;
     }
 
+    /* SVG */
+
+    .svg-forma {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .img-content {
+        width: 80px;
+        height: 80px;
+    }
+    
+    /* .forma-img {
+        cx: 40px;
+        cy: 40px;
+        r: 40px;
+    } */
+
+    .answers-text {
+        font-size: 18px;
+    }
+
 
 }
 
