@@ -389,7 +389,7 @@ input::placeholder {
 
 .user-name {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 10px;
    
 }
@@ -437,35 +437,33 @@ input::placeholder {
     width: 100%;
 }
 
+.user-replay.active {
+    color: #199C3D;
+}
+
 .box-flex {
     display: flex;
 }
 
 .user-photo-replay {
+    width: 70px;
+    height: 70px;
+}
+
+.user-photo,
+.user-photo-replay {
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 20px;
 }
 
 .user-photo {
-    margin-right: 20px;
-}
-
-/* SVG */
-
-.svg-forma {
-    width: 140px;
+    width: 160px;
     height: 140px;
-}
-
-.img-content {
-    width: 140px;
-    height: 140px;
-}
-
-/* .forma-img {
-    cx: 70px;
-    cy: 70px;
-    r: 70px;
-} */ 
+} 
 
 .form-replay {
     display: none;
@@ -509,6 +507,10 @@ input::placeholder {
     margin-left: 0;
 }
 
+.open.active .arrow-next::before {
+    transform: rotate(180deg);
+}
+
 .answers-text {
     font-family: 'Comfortaa', sans-serif;
     font-style: normal;
@@ -516,6 +518,22 @@ input::placeholder {
     font-size: 24px;
     line-height: 27px;
     color: #27AE60;
+}
+
+.answers-text.text-show {
+    display: block;
+}
+
+.open.active .answers-text.text-show {
+    display: none;
+}
+
+.answers-text.text-hide {
+    display: none;
+}
+
+.open.active .answers-text.text-hide {
+    display: block;
 }
 
 /* Replay text */
@@ -544,6 +562,14 @@ input::placeholder {
     align-items: center;
     text-transform: uppercase;
     border: 2px solid #EAEAEA;
+    transition: color .1s linear;
+    color: #A6A6A6;
+}
+
+.butt-border:hover  {
+    border: 2px solid #1FB14D;
+    color:  #1FB14D;
+    
 }
 
 .butt-border-text {
@@ -556,17 +582,13 @@ input::placeholder {
     align-items: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #A6A6A6;
 }
 
-.butt-border:hover  {
-    border: 2px solid #1FB14D;
-}
 
-.butt-border-text:hover {
+/* .butt-border-text:hover {
     color:  #1FB14D;
     transition: color .1s linear;
-}
+} */
 
 /* form-user-comments-text */
 
@@ -687,7 +709,7 @@ input::placeholder {
     z-index: 100;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     
 }
 

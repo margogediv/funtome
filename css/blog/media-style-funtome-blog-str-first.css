@@ -216,19 +216,23 @@
         margin-right: 10px;
     }
 
-    .button-mess {
-        display: none;
-    }
-
     /* Comments Form */
 
     .comments-text {
-        font-size: 17px;
-        margin-bottom: 10px;
+        font-size: 16px;
+        margin-bottom: 7px;
     }
 
+    .comments-form-text {
+        padding: 10px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    } 
+
     .sing-in-text {
-        font-size: 12px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -243,11 +247,66 @@
     }
 
     .user-form-text {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 
     .user-replay span {
         font-size: 14px;
+    }
+
+
+    /* Form 1 */
+
+    .block {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    .block-text {
+        margin-right: 0;
+    }
+
+    .block .block-text {
+        margin-bottom: 10px;
+    }
+
+    .form-iteam {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    
+
+    .block-user-photo-text .user-photo {
+        display: none;
+    }
+    
+    .user-photo {
+        width: 100px;
+        height: 80px;
+    }
+
+    .user-photo-replay {
+        width: 50px;
+        height: 50px;
+    }
+
+    .open-replay-text .replay-text {
+        width: 100%;
+    }
+
+    .open {
+        margin-bottom: 20px;
+    }
+
+    /* Replay form */
+
+    .replay-form {
+        padding: 9px 10px;
     }
 }
 
