@@ -1,6 +1,5 @@
 @media screen and (min-width: 1921px) {
 
-    
 
 }
 
@@ -34,25 +33,96 @@
         display: none;
     }
 
+    /* Bar */
+
+    .block-menu-bar {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .search-block {
+        order: 2;
+        width: 100%;
+    }
+
+    .structure {
+        margin-bottom: 40px;
+    }
+
+    input[type="text"] {
+        width: 100%;
+    }
+
     /* Paki */
+
+    .paki-catalog {
+        max-width: 768px;
+        width: 100%;
+        
+        align-items: center;
+    }
+
+    .box-paki {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
     .card-paki {
         width: calc((100% - 48px)/2);
+        height: auto;
     }
 
     .svg-style {
-        width: 340px;
+        width: 100%;
+        max-width: 100%;
         height: auto;
-        margin-left: 0;
+        margin-left: -3px;
     }
 
     .description-paki {
-        width: 340px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .photo-paki-style {
         width: 100%;
+        max-width: 100%;
+        height: auto;
     }
+
+    .card-paki:nth-child(2n+1) {
+        margin-left: 0;
+    }
+    
+    .section-pages {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .slider-title {
+        font-size: 40px;
+    }
+
+    .slider-box {
+        margin-bottom: 150px;
+    }
+
+    /* Slider */
+
+    .owl-carousel.owl-theme-3 .owl-nav button.owl-prev::before {
+        left: 27%;
+        top: 104%;
+    }
+
+    .owl-carousel.owl-theme-3 .owl-nav button.owl-next::before {
+        right: 27%;
+        top: 104%;
+    }
+
 
     /* Style-row */
 
@@ -64,4 +134,100 @@
         width: 340px;
         height: auto;
     }
+
+    .paki-catalog.style-row .description-paki {
+        height: auto;
+    }
+
+    .paki-catalog.style-row .list {
+        height: 78px;
+        overflow: hidden;
+    }
 }
+
+@media screen and (max-width: 767px) {
+
+    /* Media header + intro */
+
+    .features-container {
+        margin-top: 13px;
+    }
+
+    .content-title-features {
+        margin-bottom: 15px;
+    }
+
+    .h1-ru {
+        margin-bottom: 0;
+    }
+
+    .paki {
+        background-image: url('/img/funtome-paki/photo-paki-mob.jpg');
+    }
+
+    /* Bar */
+
+    .sorting-pak {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sorting-pak-style {
+        margin-bottom: 19px;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    .structure {
+        margin-bottom: 0;
+        margin-top: -79px;
+    }
+
+    .block-menu-bar {
+        margin-top: 15px;
+    } 
+
+    .paki-list,
+    .paki-tabl {
+        width: 40px;
+        height: 40px;
+    }
+
+    .paki-list {
+        margin-right: 10px;
+    }
+
+    .input-search-pak {
+        font-size: 16px;
+    }
+
+
+    /* Paki */
+
+    .card-paki {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 80px;
+    }
+
+
+    .section-pages {
+        margin-bottom: 69px
+    }
+
+    .slider-title {
+        font-size: 30px;
+    }
+
+    .slider-box {
+        margin-bottom: 120px;
+    }
+
+     
+}
+
+
+@media screen and (max-width: 359px) {
+
+    
+}    
