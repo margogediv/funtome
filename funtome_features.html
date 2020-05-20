@@ -46,7 +46,7 @@
                         </a>
                     </div>
 
-                    <div class="nav">
+                    <div class="nav" id="nav">
                         <ul class="nav-list">
                             <li class="link-home">
                                 <a href="index.html">главная</a>
@@ -475,6 +475,20 @@
                 // 'autoplayTimeout': 3000,
                 'autoplayHoverPause': true,
                 'nav': true,
+            });
+        });
+    </script>
+
+    <!--Nav Toggle  -->
+    <script>
+        $(document).ready(function () {
+            let nav = $('#nav');
+
+            $('#navToggle').on('click', function(event){
+                event.preventDefault();
+
+                nav.toggleClass('show');
+                
             });
         });
     </script>

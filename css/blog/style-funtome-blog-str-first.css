@@ -377,14 +377,24 @@ input::placeholder {
 
 .user-comments {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 41px;
 }
 
 .block-comments {
-    width: 100%;
+    width: calc(100% - 180px);
     flex-direction: column;
     justify-content: space-between;
     
+}
+
+.block-replay {
+    width: calc(100% - 180px);
+    margin-left: auto;
+}
+
+.block-replay .block-replay {
+    width: calc(100% - 90px);
 }
 
 .user-name {
@@ -432,7 +442,6 @@ input::placeholder {
     font-size: 16px;
     line-height: 19px;
     color: #888888;
-    margin-bottom: 30px;
     display: block;
     width: 100%;
 }
@@ -443,6 +452,12 @@ input::placeholder {
 
 .box-flex {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.box-flex-container {
+    display: flex;
+    width: 100%;
 }
 
 .user-photo-replay {
@@ -467,6 +482,11 @@ input::placeholder {
 
 .form-replay {
     display: none;
+    margin-top: 20px;
+}
+
+.answers {
+    margin-top: 30px;
 }
 
 .replay-comments {
@@ -540,6 +560,7 @@ input::placeholder {
 
 .replay-text {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
 }
 
@@ -551,6 +572,7 @@ input::placeholder {
 
 
 .replay-button {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
 }
@@ -580,6 +602,7 @@ input::placeholder {
     line-height: 18px;
     display: flex;
     align-items: center;
+    justify-content: center;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 }

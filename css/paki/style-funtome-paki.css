@@ -2,7 +2,9 @@
 /* Intro style */
 
 .paki {
-    background: url('/img/funtome-paki/photo-paki-desk-min.jpg') center no-repeat;
+    background: url('/img/funtome-paki/photo-paki-desk-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -185,6 +187,7 @@ button[type="submit"] {
     width: 290px;
     height: 300px;
     border-radius: 8px;
+    max-width: 100%;
 }
 
 .description-paki {
@@ -314,10 +317,6 @@ button[type="submit"] {
     display: none;
 }
 
-.paki-catalog.style-row .list {
-    display: flex;
-}
-
 .list-message {
     position: relative;
     height: 0;
@@ -403,6 +402,11 @@ button[type="submit"] {
 }
 
 /* New Live */
+
+.photo-paki-style {
+    width: 285px;
+    height: 300px;
+}
 
 .photo-paki-style.live::before {
     content: "";

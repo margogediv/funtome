@@ -45,7 +45,7 @@
                         </a>
                     </div>
 
-                    <div class="nav">
+                    <div class="nav" id="nav">
                         <ul class="nav-list">
                             <li class="link-home">
                                 <a href="index.html">главная</a>
@@ -188,7 +188,7 @@
                     <!-- card-paki -->
                     <div class="card-paki">
                         <div class="photo-paki">
-                            <div class="photo-paki-style" width="285" height="300">
+                            <div class="photo-paki-style">
                                 <a href="/funtome-paki-card.html">
                                     <svg class="svg-style" viewBox="0 0 285 300" fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -962,6 +962,20 @@
                 parent.addClass('style-message');
             }
         }
+    </script>
+
+    <!--Nav Toggle  -->
+    <script>
+        $(document).ready(function () {
+            let nav = $('#nav');
+
+            $('#navToggle').on('click', function(event){
+                event.preventDefault();
+
+                nav.toggleClass('show');
+                
+            });
+        });
     </script>
 
 </body>

@@ -7,6 +7,11 @@
 @media screen and (max-width: 1280px) {
 
     /* Intro */
+
+    .support {
+        background-image: url('/img/funtome-support/photo-support-tabl.jpg');
+    }
+
     .features-container {
         margin-top: 33px;
     }
@@ -52,7 +57,13 @@
 
 
 @media screen and (max-width: 767px) {
+
     /* Intro */
+
+    .support {
+        background-image: url('/img/funtome-support/photo-support-mob.jpg');
+    }
+
     .features-container {
         margin-top: 20px;
     }

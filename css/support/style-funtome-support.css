@@ -1,7 +1,9 @@
 /* Intro style */
 
 .support {
-    background: url('/img/funtome-support/photo-support-desk.jpg') center no-repeat;
+    background: url('/img/funtome-support/photo-support-desk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
