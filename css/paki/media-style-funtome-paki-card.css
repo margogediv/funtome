@@ -78,6 +78,12 @@
 
     .card {
         background-image: url('/img/funtome-paki-card/photo-paki-card-mob.jpg');
+        height: 650px;
+        border-radius: 0 0 32px 32px;
+    }
+
+    .intro.card .content-block {
+        margin-top: 0;
     }
 
     .card .features-container {

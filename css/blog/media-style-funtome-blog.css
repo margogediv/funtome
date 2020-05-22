@@ -103,13 +103,37 @@
 
     .blog {
         background-image: url('/img/funtome-blog/blog-photo-mobile.jpg');
+        height: 610px;
+        border-radius: 0 0 32px 32px;
+    }
+
+    .intro.blog .border-box {
+        width: 100%;
+        max-width: 100%;
+        height: 587px;
+        background: linear-gradient(180deg, #989898 46.93%, #465B6F 95.86%);
+        position: absolute;
+        border-radius: 0 0 32px 32px;
+        z-index: -1;
+    }
+
+    .intro.blog .container {
+        height: 100%;
+    }
+
+    .intro.blog .blog-container {
+        height: 100%;
+    }
+
+    .intro.blog .blog-banner-title {
+        height: 100%;
     }
 
     .blog-menu {
         overflow: auto;
         width: auto;
         margin-bottom: 70px;
-        margin-top: 20px;
+        margin-top: 0;
         justify-content: flex-start;
     }
 
@@ -145,6 +169,10 @@
 
 
     /* News */
+
+    .content-block {
+        margin-top: 80px;
+    }
 
     .news {
         margin-bottom: 70px;

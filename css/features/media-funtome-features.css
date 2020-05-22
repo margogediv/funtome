@@ -112,10 +112,40 @@
 
     .features {
         background-image: url('/img/funtome-features/banner/banner-features-mobl.jpg');
+        height: 610px;
+        border-radius: 0 0 32px 32px;
     }
 
-    .features-container {
-        margin-top: 0px;
+    .intro.features .border-box {
+        width: 100%;
+        max-width: 100%;
+        height: 587px;
+        background: linear-gradient(180deg, #989898 46.93%, #465B6F 95.86%);
+        position: absolute;
+        border-radius: 0 0 32px 32px;
+        z-index: -1;
+    }
+
+    .intro.features .container {
+        height: 100%;
+    }
+
+    
+    .intro.features .features-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 7px;
+    }
+
+    .intro.features .features-banner-title {
+        height: 100%;
+    }
+
+    .intro.features .content-text {
+        color: #FFFFFF;
     }
 
     .content-title-features {
@@ -129,7 +159,7 @@
     /* Content block */
 
     .features-group {
-        margin-top: 70px;
+        margin-top: 130px;
     }
 
     .features-text {
@@ -160,12 +190,6 @@
         width: 80px;
         height: 80px;
     }
-    
-    /* .forma-img {
-        cx: 40px;
-        cy: 40px;
-        r: 40px;
-    } */
 
     .answers-text {
         font-size: 18px;

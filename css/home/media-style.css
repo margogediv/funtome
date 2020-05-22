@@ -302,25 +302,35 @@
         padding-right: 15px;
     }
 
-    .intro-container .box-intro {
+    .intro.home .intro-container .box-intro {
         margin-left: 0;
         width: 100%;
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 25px;
+        bottom: -104px;
         left: 0;
     }
 
     .home {
         background-image: url('/img/funtome-home/banner/header-photo_mobile.jpg');
+        border-radius: 0 0 32px 32px;
+    }
+
+    .intro.home {
+        position: relative;
+    }
+
+    .contetnt-subtitle {
+        margin-bottom: 0;
     }
 
     /* Media style index */
 
-    .intro {
-        height: 720px;
+    .intro.home {
+        height: 609px;
     }
 
     .logo {
@@ -344,6 +354,10 @@
     .instal-google {
         width: 21px;
         height: 23px;
+    }
+
+    .intro-content {
+        margin-top: 7px;
     }
 
     .intro-container .butt-mobile > :first-child {
@@ -423,14 +437,35 @@
         width: 100%;
     }
 
-    .content-text {
-        display: none;
+    .intro.home .border-box {
+        width: 100%;
+        max-width: 100%;
+        height: 637px;
+        background: linear-gradient(180deg, #989898 46.93%, #465B6F 95.86%);
+        position: absolute;
+        border-radius: 0 0 32px 32px;
+        z-index: -1;
     }
+
+    .box-intro .butt-mobile {
+        margin-bottom: 13px;
+    }
+    
+    .content-text {
+        width: 100%;
+        max-width: 360px;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0 16px;
+        color: #FFFFFF;;
+    }
+
 
     /* Slider */
 
     .slider {
-        margin-top: 30px;
+        margin-top: 141px;
     }
 
     .form-slider {
