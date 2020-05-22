@@ -223,6 +223,41 @@
         margin-bottom: 120px;
     }
 
+    .title-paki {
+        font-size: 24px;
+    }
+
+    .subtitle-paki {
+        font-size: 16px;
+    }
+
+    .paki-catalog .title-paki {
+        margin-bottom: 47px;
+
+    }
+
+    .owl-carousel.owl-theme-3 .owl-dots {
+        display: none;
+    }
+
+    /* Style-row */ 
+
+    .paki-catalog.style-row .card-paki {
+        flex-direction: column;
+
+    }
+
+    .paki-catalog.style-row .description-paki {
+        margin-left: 0;
+        border: 2px solid #EEEEEE;
+        padding: 31px 15px 16px;
+        margin-top: -15px;
+    }
+
+    .paki-catalog.style-row .list-iteam {
+        font-size: 18px;
+        margin-right: 0;
+    }
      
 }
 

@@ -1,24 +1,29 @@
 /* Intro style */
 
 .card {
-    background: url('/img/funtome-paki-card/photo-paki-card-desk-min.jpg') center no-repeat;
+    background: url('/img/funtome-paki-card/photo-paki-card-desk-min.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.title-card {
-
+.features-container {
+    margin-top: 87px;
 }
 
 .title-red {
-    padding: 0 5px;
+    margin-bottom: 60px;
+}
+
+.title-red span {
+    padding: 2px 7px;
     font-family: 'Comfortaa', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 150%;
     color: #FFFFFF;
-    /* background-color: #F02B53; */
-    margin-bottom: 60px;
+    background-color: #F02B53;
 }
 
 .title-green {
@@ -29,7 +34,7 @@
     line-height: 150%;
     text-transform: capitalize;
     color: #29CD5D;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
 }
 
 .content-text-paki {

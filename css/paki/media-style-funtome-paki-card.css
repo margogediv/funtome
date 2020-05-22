@@ -8,11 +8,118 @@
 
 @media screen and (max-width: 1280px) {
 
+    /* Media header + intro */
+
+    .card {
+        background-image: url('/img/funtome-paki-card/photo-paki-card-tabl.jpg');
+    }
+
+    .card .features-container {
+        margin-top: 29px;
+    }
+
+    .title-red span {
+        font-size: 22px;
+    }
+
+    .title-red {
+        margin-bottom: 50px;
+    }
+
+    .title-green {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    
+
+    /* Paki box */
+
+    .box-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 768px;     
+    }
+
+    .paki-box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .paki-blank {
+        width: calc((100% - 48px)/2);
+        height: auto;
+        margin-bottom: 80px;
+    }
+
+    .paki-blank:nth-child(2n+1) {
+        margin-left: 0;
+    }
+
+    .photo-blank {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Slider */
+
+    .slider-title {
+        font-size: 40px;
+    }
 
 }
 
 @media screen and (max-width: 767px) {
 
+    /* Media header + intro */
+
+    .card {
+        background-image: url('/img/funtome-paki-card/photo-paki-card-mob.jpg');
+    }
+
+    .card .features-container {
+        margin-top: 0;
+    }
+
+    .title-red span {
+        font-size: 17px;
+    }
+
+    .title-red {
+        margin-bottom: 30px;
+    }
+
+    .title-green {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .owl-carousel.owl-theme-3 .owl-dots {
+        display: none;
+    }
+
+     /* Paki box */
+
+     .paki-box {
+        margin-top: 30px;
+     }
+
+     .paki-blank {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+     }
+
+     .box-container {
+        margin-bottom: 70px;
+     }
+
+     /* Slider */
+
+    
 
 }
 
